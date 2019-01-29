@@ -1,6 +1,6 @@
 body {
     font-family: 'Play', sans-serif;
-    background-image:url("img/background1.jpg");
+    background-image:url("img/0.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,296 +12,738 @@ body {
 	position: relative;
 }
 
-#cities{
-
-}
-
 #Tokyo {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 43%;
 	left: 82%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#Tokyo:hover {
+	transform: scale(2);
 }
 
 #Seoul {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 43%;
 	left: 79%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
 
+#Seoul:hover {
+	transform: scale(2);
 }
 
 #Beijing {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 42%;
 	left: 76%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#Beijing:hover {
+	transform: scale(2);
 }
 
 #Shanghai {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 48%;
 	left: 77%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#Shanghai:hover {
+	transform: scale(2);
 }
 
 #HongKong {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 50%;
 	left: 76%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#HongKong:hover {
+	transform: scale(2);
 }
 
 #NewDelhi {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 49%;
 	left: 66%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#NewDelhi:hover {
+	transform: scale(2);
 }
 
 #KualaLumpur {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 60%;
 	left: 72%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#KualaLumpur:hover {
+	transform: scale(2);
 }
 
 #Singapore {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 62%;
 	left: 73%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#Singapore:hover {
+	transform: scale(2);
 }
 
 #Jakarta {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 68%;
 	left: 75%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#Jakarta:hover {
+	transform: scale(2);
 }
 
 
 #Sydney {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 85%;
 	left: 84%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#Sydney:hover {
+	transform: scale(2);
 }
 
 #Jerusalem {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 45%;
 	left: 56%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#Jerusalem:hover {
+	transform: scale(2);
 }
 
 #Moskow {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 28%;
 	left: 56%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
 }
 
+#Moskow:hover {
+	transform: scale(2);
+}
 #Berlin {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 32%;
 	left: 49.5%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#Berlin:hover {
+	transform: scale(2);
 }
 
 #Paris {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 34%;
 	left: 47.5%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#Paris:hover {
+	transform: scale(2);
 }
 
 #London {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 32%;
 	left: 46.5%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#London:hover {
+	transform: scale(2);
 }
 
 #Madrid {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 40%;
 	left: 46%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#Madrid:hover {
+	transform: scale(2);
 }
 
 #Cairo {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 46%;
 	left: 55%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#Cairo:hover {
+	transform: scale(2);
 }
 
 #Johannesburg {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 81%;
 	left: 54%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#Johannesburg:hover {
+	transform: scale(2);
 }
 
 #Montreal {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 35%;
 	left: 29%;
 	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#Montreal:hover {
+	transform: scale(2);
 }
 
 #NewYork {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
 	border-radius: 5px;
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	top: 38%;
+	left: 29%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#NewYork:hover {
+	transform: scale(2);
+}
+
+#Washington {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 39.5%;
+	left: 28%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#Washington:hover {
+	transform: scale(2);
+}
+
+#SanFrancisco {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 42%;
+	left: 17%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#SanFrancisco:hover {
+	transform: scale(2);
+}
+
+#LosAngeles {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 44%;
+	left: 17.5%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#LosAngeles:hover {
+	transform: scale(2);
+}
+
+#RioDeJaneiro {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 77%;
+	left: 35%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#RioDeJaneiro:hover {
+	transform: scale(2);
+}
+
+#line1 {
+	width:1%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 21%;
+	left: 5%;
+	cursor: pointer;
+
+}
+
+#line2 {
+	width:23.5%; 
+	height:15%;
+	position: absolute;
+	z-index: 1;
+	top: 21%;
+	left: 6%;
+	cursor: pointer;
+}
+
+#line3 {
+	width:1%; 
+	height:2.5%;
+	position: absolute;
+	z-index: 1;
+	top: 36%;
 	left: 29%;
 	cursor: pointer;
 }
 
-#Washington {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
-	border-radius: 5px;
+#line4 {
+	width:1%; 
+	height:1.5%;
 	position: absolute;
 	z-index: 1;
-	top: 39.5%;
-	left: 28%;
+	top: 39%;
+	left: 28.3%;
 	cursor: pointer;
 }
 
-#SanFrancisco {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
-	border-radius: 5px;
+#line5 {
+	width:11.5%;
+	height:2.5%;
 	position: absolute;
 	z-index: 1;
-	top: 42%;
+	top: 40.5%;
 	left: 17%;
 	cursor: pointer;
 }
 
-#LosAngeles {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
-	border-radius: 5px;
+#line6 {
+	width:1%; 
+	height:2%;
 	position: absolute;
 	z-index: 1;
-	top: 44%;
-	left: 17.5%;
+	top: 43%;
+	left: 17%;
 	cursor: pointer;
 }
 
-#RioDeJaneiro {
-	background-color: #0061ff;
-	width: 5px;
-	height: 5px;
-	border-radius: 5px;
+#line7 {
+	width:18%;
+	height:33%;
 	position: absolute;
 	z-index: 1;
-	top: 77%;
-	left: 35%;
+	top: 45%;
+	left: 17.7%;
 	cursor: pointer;
 }
+
+#line8 {
+	width:1%; 
+	height:2.5%;
+	position: absolute;
+	z-index: 1;
+	top: 21%;
+	left: 94.5%;
+	cursor: pointer;
+}
+
+#line9 {
+	width:38.5%; 
+	height:15%;
+	position: absolute;
+	z-index: 1;
+	top: 15%;
+	left: 56%;
+	cursor: pointer;
+}
+
+#line10 {
+	width:6.5%; 
+	height:4%;
+	position: absolute;
+	z-index: 1;
+	top: 29%;
+	left: 50%;
+	cursor: pointer;
+}
+
+#line11 {
+	width:2%; 
+	height:2.2%;
+	position: absolute;
+	z-index: 1;
+	top: 32.7%;
+	left: 48%;
+	cursor: pointer;
+}
+
+#line12 {
+	width:1%;
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 32.5%;
+	left: 46.8%;
+	cursor: pointer;
+}
+
+#line13 {
+	width:1.5%; 
+	height:5.5%;
+	position: absolute;
+	z-index: 1;
+	top: 35%;
+	left: 46.3%;
+	cursor: pointer;
+}
+
+#line14 {
+	width:8%; 
+	height:41%;
+	position: absolute;
+	z-index: 1;
+	top: 41%;
+	left: 46.5%;
+	cursor: pointer;
+}
+
+#line15 {
+	width:1%; 
+	height:35%;
+	position: absolute;
+	z-index: 1;
+	top: 47%;
+	left: 54.3%;
+	cursor: pointer;
+}
+
+#line16 {
+	width:1%; 
+	height:1%;
+	position: absolute;
+	z-index: 1;
+	top: 46%;
+	left: 55.3%;
+	cursor: pointer;
+}
+
+#line17 {
+	width:0.5%; 
+	height:16%;
+	position: absolute;
+	z-index: 1;
+	top: 29.4%;
+	left: 56.2%;
+	cursor: pointer;
+}
+
+#line18 {
+	width:10%; 
+	height:4%;
+	position: absolute;
+	z-index: 1;
+	top: 45.5%;
+	left: 56.5%;
+	cursor: pointer;
+}
+
+#line19 {
+	width:5.8%; 
+	height:11%;
+	position: absolute;
+	z-index: 1;
+	top: 49.5%;
+	left: 66.5%;
+	cursor: pointer;
+}
+
+#line20 {
+	width:1.2%; 
+	height:2.2%;
+	position: absolute;
+	z-index: 1;
+	top: 60.5%;
+	left: 72.2%;
+	cursor: pointer;
+}
+
+#line21 {
+	width:2%; 
+	height:6%;
+	position: absolute;
+	z-index: 1;
+	top: 63%;
+	left: 73.3%;
+	cursor: pointer;
+}
+
+#line22 {
+	width:9%;
+	height:16.5%;
+	position: absolute;
+	z-index: 1;
+	top: 69%;
+	left: 75.3%;
+	cursor: pointer;
+}
+
+#line23 {
+	width:4%; 
+	height:9.5%;
+	position: absolute;
+	z-index: 1;
+	top: 51%;
+	left: 72.5%;
+	cursor: pointer;
+}
+
+#line24 {
+	width:10%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 49%;
+	left: 66.5%;
+	cursor: pointer;
+}
+
+#line25 {
+	width:1%; 
+	height:2.3%;
+	position: absolute;
+	z-index: 1;
+	top: 48.5%;
+	left: 76.5%;
+	cursor: pointer;
+}
+
+#line26 {
+	width:1%; 
+	height:7%;
+	position: absolute;
+	z-index: 1;
+	top: 42.5%;
+	left: 76.3%;
+	cursor: pointer;
+}
+
+#line27 {
+	width:3%; 
+	height:1.5%;
+	position: absolute;
+	z-index: 1;
+	top: 42.5%;
+	left: 76.3%;
+	cursor: pointer;
+}
+
+#line28 {
+	width:3%; 
+	height:1.5%;
+	position: absolute;
+	z-index: 1;
+	top: 43.3%;
+	left: 79.5%;
+	cursor: pointer;
+}
+
+#line29 {
+	width:20%; 
+	height:14%;
+	position: absolute;
+	z-index: 1;
+	top: 28.5%;
+	left: 56.5%;
+	cursor: pointer;
+}
+
+#line30 {
+	width:18%; 
+	height:22%;
+	position: absolute;
+	z-index: 1;
+	top: 21%;
+	left: 76.2%;
+	cursor: pointer;
+}
+
+
+
