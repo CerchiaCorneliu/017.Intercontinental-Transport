@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <title>Intercontinental Passenger & Cargo Transport</title>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #001538">
+	<nav id="navbar" class="navbar navbar-expand-lg navbar-light" style="background-color: #001538">
 	  <a href = "index.html" class="navbar-brand" href="#" style="color:white; font-weight: bold; font-size: 40px">INTERCONTINENTAL</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
@@ -21,18 +21,13 @@
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav mr-auto">
 	      <li class="nav-item active">
-	        <a class="nav-link" href="#" style="color:white">Login<span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="index.html" style="color:white">Home<span class="sr-only">(current)</span></a>
 	      </li>
-	      <li class="nav-item dropdown">
-	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white">
-	          Dropdown
-	        </a>
-	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-	          <a class="dropdown-item" href="fees.html">Fees</a>
-	          <a class="dropdown-item" href="#">Another action</a>
-	          <div class="dropdown-divider"></div>
-	          <a class="dropdown-item" href="#">Something else here</a>
-	        </div>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="fees.html" style="color:white">Fees<span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#" style="color:white">Login<span class="sr-only">(current)</span></a>
 	      </li>
 	    </ul>
 	    <form class="form-inline my-2 my-lg-0">
@@ -43,7 +38,7 @@
 	</nav>
 
 	<div class="container-fluid" style="width: 85%">
-		<div class="jumbotron text-center" style="margin: 40px 0px 20px">
+		<div class="jumbotron text-center" style="margin: 120px 0px 20px">
 		    <h1 class="display-4" style="color:#002666">Take your reservation</h1>
 		    <form class="needs-validation" class="was-validated" novalidate style="max-width: 500px; margin: 0px auto">
 				  <div class="form-row">
@@ -198,9 +193,9 @@
 	    		<img id="worldmap" src="img/worldmap.png" style="width: 90%">
 	    		<script>
 	    			$(document).ready(function(){
-	    				$('#cities').hide();
-	    				$('#worldmap').mouseenter(function(){
-	    					$('#cities').show();
+	    				// $('#cities').hide();
+	    				$('#map').mouseenter(function(){
+	    					$('#cities').show("slow");
 	    				});
 	    				/* $('#map').mouseleave(function(){
 	    					$('#cities').hide();
@@ -208,9 +203,9 @@
 	    			});
 
 	    			$(document).ready(function(){
-	    				$('#lines').hide();
-	    				$('#worldmap').mouseenter(function(){
-	    					$('#lines').show();
+	    				// $('#lines').hide();
+	    				$('#map').mouseenter(function(){
+	    					$('#lines').show("slow");
 	    				});
 	    				/* $('#map').mouseleave(function(){
 	    					$('#lines').hide();
@@ -218,7 +213,7 @@
 	    			});
 	    		</script>
 
-	    		<div id="cities">
+	    		<div id="cities" style="display: none">
 	    			<div id="Tokyo" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="TOKYO" data-content="Arrival: Departure: "></div>
 	    			<script>
 	    				$(document).ready(function () {
@@ -274,7 +269,7 @@
 					<div id="RioDeJaneiro" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="RIO DE JANEIRO" data-content="Arrival: Departure: "></div>
 				</div>
 
-				<div id="lines">
+				<div id="lines" style="display: none">
 					<canvas id="line1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge" data-content="Max speed: 1000 km/h">
 					</canvas>
 					<script>

@@ -8,6 +8,13 @@ body {
     width: 100%;
 }
 
+#navbar {
+	position: fixed;
+	top: 0px;
+	z-index: 3;
+	width: 100%;
+}
+
 #map {
 	position: relative;
 }
@@ -745,5 +752,25 @@ body {
 	cursor: pointer;
 }
 
+/* FEES */
 
+#fees table td {
+	font-size: 10px;
+	font-weight: bold;
+	vertical-align: middle;
+	cursor: pointer;
+}
 
+#fees table th {
+	font-size: 13px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+#fees table thead tr th{
+	background-color: #001538;
+}
+
+#fees table tbody tr th{
+	color: #001538;
+}
