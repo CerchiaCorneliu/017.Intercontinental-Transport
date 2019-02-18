@@ -769,7 +769,9 @@ body {
 /* FEES */
 
 caption {
-	caption-side: top; 
+	caption-side: top;
+	font-size: 12px; 
+	color: black;
 }
 
 .table-sticky>thead>tr>th,
@@ -786,9 +788,9 @@ caption {
 
 #fees1 table td {
 	font-size: 10px;
-	font-weight: bold;
 	vertical-align: middle;
 	cursor: pointer;
+	color: black;
 }
 
 #fees1 table th {
@@ -808,9 +810,9 @@ caption {
 
 #fees2 table td {
 	font-size: 10px;
-	font-weight: bold;
 	vertical-align: middle;
 	cursor: pointer;
+	color: black;
 }
 
 #fees2 table th {
