@@ -8,11 +8,26 @@ body {
     width: 100%;
 }
 
+/* html, body {
+	height:100%;
+	overflow:auto;
+} */
+
 #navbar {
-	position: fixed;
+	/* position: sticky; */
 	top: 0px;
-	z-index: 3;
+	left: 0px;
+	z-index: 1000;
 	width: 100%;
+}
+
+#navbar button {
+	background-color: #001538;
+	transition: .5 ease;
+}
+
+#navbar button:hover {
+	background-color: #0061ff;
 }
 
 #map {
@@ -446,7 +461,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #RioDeJaneiro:hover {
 	transform: scale(2);
 }
@@ -754,23 +768,97 @@ body {
 
 /* FEES */
 
-#fees table td {
+caption {
+	caption-side: top; 
+}
+
+.table-sticky>thead>tr>th,
+.table-sticky>thead>tr>td {
+	top: -1px;
+	position: sticky;
+}
+
+.table-height {
+	height: 500px;
+	display: block;
+	overflow: scroll;
+}
+
+#fees1 table td {
 	font-size: 10px;
 	font-weight: bold;
 	vertical-align: middle;
 	cursor: pointer;
 }
 
-#fees table th {
+#fees1 table th {
+	font-size: 13px;
+	font-weight: bold;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+#fees1 table thead tr th{
+	background-color: #001538;
+}
+
+#fees1 table tbody tr th{
+	color: #001538;
+}
+
+#fees2 table td {
+	font-size: 10px;
+	font-weight: bold;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+#fees2 table th {
 	font-size: 13px;
 	font-weight: bold;
 	vertical-align: middle;
 }
 
-#fees table thead tr th{
+#fees2 table thead tr th{
 	background-color: #001538;
 }
 
-#fees table tbody tr th{
+#fees2 table tbody tr th{
 	color: #001538;
 }
+
+#to-bottom {
+	background-color: #001538;
+	color: white;
+    cursor: pointer;
+    font-size: 12px;
+    height: 40px;
+    padding-top: 1px;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-weight: bold;
+    transition: .5 ease;
+}
+
+#to-bottom:hover {
+	background-color: #0061ff;
+}
+
+#back-to-top {
+	background-color: #001538;
+	color: white;
+    cursor: pointer;
+    font-size: 12px;
+    height: 40px;
+    padding-top: 1px;
+    border: 1px solid white;
+    border-radius: 2px;
+
+    font-weight: bold;
+    transition: .5 ease;
+}
+
+#back-to-top:hover {
+	background-color: #0061ff;
+}
+

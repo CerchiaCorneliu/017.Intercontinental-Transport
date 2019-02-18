@@ -13,11 +13,8 @@
 </head>
 <body>
 	<nav id="navbar" class="navbar navbar-expand-lg navbar-light" style="background-color: #001538">
-	  <a href = "index.html" class="navbar-brand" href="#" style="color:white; font-weight: bold; font-size: 40px">INTERCONTINENTAL</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-
+	  <a href = "index.html" class="navbar-brand" style="color:white; font-weight: bold; font-size: 40px">INTERCONTINENTAL</a>
+	  <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav mr-auto">
 	      <li class="nav-item active">
@@ -38,13 +35,13 @@
 	</nav>
 
 	<div class="container-fluid" style="width: 85%">
-		<div class="jumbotron text-center" style="margin: 120px 0px 40px">
-			<div id="fees" class="table-responsive">
-			    <table class="table table-hover table-bordered table-sm">
+		<div class="jumbotron text-center" style="margin: 40px 0px 40px">
+			<div id="fees1" class="table-responsive table-height">
+			    <table class="table table-hover table-bordered table-sticky table-sm">
 				  <caption>*High Class, **Standard Class, ***Cargo Shipping Fee</caption>
 				  <thead class="thead-dark">
 				    <tr>
-				      <th scope="col">#</th>
+				      <th scope="col">LIST #1</th>
 				      <th scope="col">Beijing</th>
 				      <th scope="col">Shanghai</th>
 				      <th scope="col">Hong Kong</th>
@@ -57,20 +54,14 @@
 				      <th scope="col">New Delhi</th>
 				      <th scope="col">Jerusalem</th>
 				      <th scope="col">Moskow</th>
-				      <th scope="col">#</th>      
+				      <th scope="col"><a id="to-bottom" href="#fees2" class="btn btn-primary btn-lg back-to-top" role="button"><span class="glyphicon glyphicon-chevron-up">TO LIST #2 ...</span></a></button></th>
 				    </tr>
 				  </thead>
 				  <tbody>
-				  	<script>
-	    				$(document).ready(function () {
-						  	$('[data-toggle="popover"]').popover()
-						  	$('.popover-dismiss').popover({trigger: 'focus'})
-						})
-	    			</script>
 				    <tr>
 				      <th scope="row">Beijing</th>
 				      <td>N/A</td>
-				      <td tabindex="0" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Shanghai" data-content=" Top speed: 600km/h *$100 **$90 ***$10">*$100 **$90 ***$10</td>
+				      <td>*$100 **$90 ***$10</td>
 				      <td>*$200 **$180 ***$10</td>
 				      <td>*$300 **$270 ***$10</td>
 				      <td>*$350 **$315 ***$10</td>
@@ -455,12 +446,12 @@
 				</table>
 			</div>
 			<br>
-			<div id="fees" class="table-responsive">
-			    <table class="table table-hover table-bordered table-sm">
+			<div id="fees2" class="table-responsive table-height">
+			    <table class="table table-hover table-bordered table-sticky table-sm">
 				  <caption>*High Class, **Standard Class, ***Cargo Shipping Fee</caption>
 				  <thead class="thead-dark">
 				    <tr>
-				      <th scope="col">#</th>
+				      <th scope="col">LIST #2</th>
 				      <th scope="col">Berlin</th>
 				      <th scope="col">Paris</th>
 				      <th scope="col">London</th>
@@ -473,7 +464,7 @@
 				      <th scope="col">San Francisco</th>
 				      <th scope="col">Los Angeles</th>
 				      <th scope="col">Rio de Janeiro</th>
-				      <th scope="col">#</th>
+				      <th scope="col"><a id="back-to-top" href="#fees1" class="btn btn-primary btn-lg back-to-top" role="button"><span class="glyphicon glyphicon-chevron-up">TO LIST #1 ...</span></a></th>      
 				    </tr>
 				  </thead>
 				  <tbody>
