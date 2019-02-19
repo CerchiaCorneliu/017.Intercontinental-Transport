@@ -47,7 +47,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #Tokyo:hover {
 	transform: scale(2);
 }
@@ -65,7 +64,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #Seoul:hover {
 	transform: scale(2);
 }
@@ -83,7 +81,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #Beijing:hover {
 	transform: scale(2);
 }
@@ -101,7 +98,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #Shanghai:hover {
 	transform: scale(2);
 }
@@ -119,7 +115,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #HongKong:hover {
 	transform: scale(2);
 }
@@ -137,7 +132,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #NewDelhi:hover {
 	transform: scale(2);
 }
@@ -155,7 +149,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #KualaLumpur:hover {
 	transform: scale(2);
 }
@@ -173,7 +166,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #Singapore:hover {
 	transform: scale(2);
 }
@@ -191,7 +183,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #Jakarta:hover {
 	transform: scale(2);
 }
@@ -210,7 +201,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #Sydney:hover {
 	transform: scale(2);
 }
@@ -228,7 +218,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #Jerusalem:hover {
 	transform: scale(2);
 }
@@ -246,10 +235,10 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #Moskow:hover {
 	transform: scale(2);
 }
+
 #Berlin {
 	background-color: #002666;
 	width: 6px;
@@ -263,7 +252,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #Berlin:hover {
 	transform: scale(2);
 }
@@ -281,7 +269,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #Paris:hover {
 	transform: scale(2);
 }
@@ -299,7 +286,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #London:hover {
 	transform: scale(2);
 }
@@ -317,7 +303,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #Madrid:hover {
 	transform: scale(2);
 }
@@ -335,7 +320,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #Cairo:hover {
 	transform: scale(2);
 }
@@ -353,7 +337,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #Johannesburg:hover {
 	transform: scale(2);
 }
@@ -371,7 +354,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #Montreal:hover {
 	transform: scale(2);
 }
@@ -389,7 +371,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #NewYork:hover {
 	transform: scale(2);
 }
@@ -407,7 +388,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #Washington:hover {
 	transform: scale(2);
 }
@@ -425,7 +405,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #SanFrancisco:hover {
 	transform: scale(2);
 }
@@ -443,7 +422,6 @@ body {
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #LosAngeles:hover {
 	transform: scale(2);
 }
@@ -473,7 +451,6 @@ body {
 	top: 21%;
 	left: 5%;
 	cursor: pointer;
-
 }
 
 #line2 {
@@ -508,7 +485,7 @@ body {
 
 #line5 {
 	width:11.5%;
-	height:2.5%;
+	height:3.4%;
 	position: absolute;
 	z-index: 1;
 	top: 40.5%;
@@ -522,7 +499,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	top: 43%;
-	left: 17%;
+	left: 17.1%;
 	cursor: pointer;
 }
 
@@ -607,7 +584,7 @@ body {
 }
 
 #line15 {
-	width:1%; 
+	width:1.1%; 
 	height:35%;
 	position: absolute;
 	z-index: 1;
@@ -632,7 +609,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	top: 29.4%;
-	left: 56.2%;
+	left: 56.1%;
 	cursor: pointer;
 }
 
@@ -717,7 +694,7 @@ body {
 }
 
 #line26 {
-	width:1%; 
+	width:1.2%; 
 	height:7%;
 	position: absolute;
 	z-index: 1;
@@ -766,7 +743,409 @@ body {
 	cursor: pointer;
 }
 
-/* FEES */
+/* LINES & FEES */
+
+.conduct-line {
+	position: relative;
+	max-width: 800px; 
+	margin: 0px auto 10px;
+	height: 100px;
+}
+.conduct-line h1 {
+	font-size: 15px;
+	text-align: left;
+}
+
+#conduct-line1 #Johannesburg {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 0%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line1 #Johannesburg:hover {
+	transform: scale(2);
+}
+
+#conduct-line1 #line1 {
+	background-color: #4286f4;
+	width:10%; 
+	height:3%;
+	position: absolute;
+	z-index: 1;
+	top: 51%;
+	left: 0.5%;
+	cursor: pointer;
+}
+
+#conduct-line1 #Madrid {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 10%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line1 #Madrid:hover {
+	transform: scale(2);
+}
+
+#conduct-line1 #line2 {
+	background-color: #4286f4;
+	width:2%; 
+	height:3%;
+	position: absolute;
+	z-index: 1;
+	top: 51%;
+	left: 10%;
+	cursor: pointer;
+}
+
+#conduct-line1 #Paris1 {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 12%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line1 #Paris1:hover {
+	transform: scale(2);
+
+}
+
+#conduct-line1 #line3 {
+	background-color: #4286f4;
+	width:2%; 
+	height:3%;
+	position: absolute;
+	z-index: 1;
+	top: 51%;
+	left: 12%;
+	cursor: pointer;
+}
+
+#conduct-line1 #London {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 14%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+
+#conduct-line1 #London:hover {
+	transform: scale(2);
+}
+
+#conduct-line1 #line4 {
+	background-color: #4286f4;
+	width:2%; 
+	height:3%;
+	position: absolute;
+	z-index: 1;
+	top: 51%;
+	left: 14%;
+	cursor: pointer;
+}
+
+#conduct-line1 #Paris2 {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 16%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line1 #Paris2:hover {
+	transform: scale(2);
+}
+
+#conduct-line1 #line5 {
+	background-color: #4286f4;
+	width: 2%; 
+	height: 3%;
+	position: absolute;
+	z-index: 1;
+	top: 51%;
+	left: 16%;
+	cursor: pointer;
+}
+
+#conduct-line1 #Berlin {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 18%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line1 #Berlin:hover {
+	transform: scale(2);
+}
+
+#conduct-line1 #line6 {
+	background-color: #4286f4;
+	width: 12%; 
+	height: 3%;
+	position: absolute;
+	z-index: 1;
+	top: 51%;
+	left: 18%;
+	cursor: pointer;
+}
+
+#conduct-line1 #Moskow {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 30%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line1 #Moskow:hover {
+	transform: scale(2);
+}
+
+#conduct-line1 #line7 {
+	background-color: #4286f4;
+	width: 20%; 
+	height: 3%;
+	position: absolute;
+	z-index: 1;
+	top: 51%;
+	left: 30%;
+	cursor: pointer;
+}
+
+#conduct-line1 #line8 {
+	background-color: #002666;
+	width: 1%; 
+	height: 3%;
+	position: absolute;
+	z-index: 1;
+	top: 51%;
+	left: 50%;
+	cursor: pointer;
+}
+
+#conduct-line1 #line9 {
+	background-color: #4286f4;
+	width: 13%; 
+	height: 3%;
+	position: absolute;
+	z-index: 1;
+	top: 51%;
+	left: 51%;
+	cursor: pointer;
+}
+
+#conduct-line1 #Montreal {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 64%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line1 #Montreal:hover {
+	transform: scale(2);
+}
+
+#conduct-line1 #line10 {
+	background-color: #4286f4;
+	width: 2%; 
+	height: 3%;
+	position: absolute;
+	z-index: 1;
+	top: 51%;
+	left: 64%;
+	cursor: pointer;
+}
+
+#conduct-line1 #NewYork {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 66%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line1 #NewYork:hover {
+	transform: scale(2);
+}
+
+#conduct-line1 #line11 {
+	background-color: #4286f4;
+	width: 2%; 
+	height: 3%;
+	position: absolute;
+	z-index: 1;
+	top: 51%;
+	left: 66%;
+	cursor: pointer;
+}
+
+#conduct-line1 #Washington {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 68%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line1 #Washington:hover {
+	transform: scale(2);
+}
+
+#conduct-line1 #line12 {
+	background-color: #4286f4;
+	width: 8%; 
+	height: 3%;
+	position: absolute;
+	z-index: 1;
+	top: 51%;
+	left: 68%;
+	cursor: pointer;
+}
+
+#conduct-line1 #SanFrancisco {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 76%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line1 #SanFrancisco:hover {
+	transform: scale(2);
+}
+
+#conduct-line1 #line13 {
+	background-color: #4286f4;
+	width: 2%; 
+	height: 3%;
+	position: absolute;
+	z-index: 1;
+	top: 51%;
+	left: 76%;
+	cursor: pointer;
+}
+
+#conduct-line1 #LosAngeles {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 78%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line1 #LosAngeles:hover {
+	transform: scale(2);
+}
+
+#conduct-line1 #line14 {
+	background-color: #4286f4;
+	width: 22%; 
+	height: 3%;
+	position: absolute;
+	z-index: 1;
+	top: 51%;
+	left: 78%;
+	cursor: pointer;
+}
+
+#conduct-line1 #RioDeJaneiro {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 100%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line1 #RioDeJaneiro:hover {
+	transform: scale(2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 caption {
 	caption-side: top;
