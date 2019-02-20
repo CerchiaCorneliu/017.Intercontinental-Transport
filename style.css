@@ -524,12 +524,12 @@ body {
 }
 
 #line9 {
-	width:38.5%; 
-	height:15%;
+	width:38%; 
+	height:8%;
 	position: absolute;
 	z-index: 1;
-	top: 15%;
-	left: 56%;
+	top: 21%;
+	left: 56.5%;
 	cursor: pointer;
 }
 
@@ -743,13 +743,14 @@ body {
 	cursor: pointer;
 }
 
+
 /* LINES & FEES */
 
 .conduct-line {
 	position: relative;
 	max-width: 800px; 
-	margin: 0px auto 10px;
-	height: 100px;
+	margin: 0px auto;
+	height: 200px;
 }
 .conduct-line h1 {
 	font-size: 15px;
@@ -763,7 +764,7 @@ body {
 	border-radius: 5px;
 	position: absolute;
 	z-index: 2;
-	top: 50%;
+	top: 70%;
 	left: 0%;
 	cursor: pointer;
 	transform: scale(1);
@@ -772,14 +773,21 @@ body {
 #conduct-line1 #Johannesburg:hover {
 	transform: scale(2);
 }
+#conduct-line1 #city1 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: -3%;
+	top: 40%;
+}
 
 #conduct-line1 #line1 {
 	background-color: #4286f4;
 	width:10%; 
-	height:3%;
+	height:2%;
 	position: absolute;
 	z-index: 1;
-	top: 51%;
+	top: 70.5%;
 	left: 0.5%;
 	cursor: pointer;
 }
@@ -791,7 +799,7 @@ body {
 	border-radius: 5px;
 	position: absolute;
 	z-index: 2;
-	top: 50%;
+	top: 70%;
 	left: 10%;
 	cursor: pointer;
 	transform: scale(1);
@@ -800,14 +808,21 @@ body {
 #conduct-line1 #Madrid:hover {
 	transform: scale(2);
 }
+#conduct-line1 #city2 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 8.5%;
+	top: 50%;
+}
 
 #conduct-line1 #line2 {
 	background-color: #4286f4;
 	width:2%; 
-	height:3%;
+	height:2%;
 	position: absolute;
 	z-index: 1;
-	top: 51%;
+	top: 70.5%;
 	left: 10%;
 	cursor: pointer;
 }
@@ -819,7 +834,7 @@ body {
 	border-radius: 5px;
 	position: absolute;
 	z-index: 2;
-	top: 50%;
+	top: 70%;
 	left: 12%;
 	cursor: pointer;
 	transform: scale(1);
@@ -827,16 +842,22 @@ body {
 }
 #conduct-line1 #Paris1:hover {
 	transform: scale(2);
-
+}
+#conduct-line1 #city3 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 11%;
+	top: 53%;
 }
 
 #conduct-line1 #line3 {
 	background-color: #4286f4;
 	width:2%; 
-	height:3%;
+	height:2%;
 	position: absolute;
 	z-index: 1;
-	top: 51%;
+	top: 70.5%;
 	left: 12%;
 	cursor: pointer;
 }
@@ -848,24 +869,30 @@ body {
 	border-radius: 5px;
 	position: absolute;
 	z-index: 2;
-	top: 50%;
+	top: 70%;
 	left: 14%;
 	cursor: pointer;
 	transform: scale(1);
 	transition: .5s ease;
 }
-
 #conduct-line1 #London:hover {
 	transform: scale(2);
+}
+#conduct-line1 #city4 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 12%;
+	top: 50%;
 }
 
 #conduct-line1 #line4 {
 	background-color: #4286f4;
 	width:2%; 
-	height:3%;
+	height:2%;
 	position: absolute;
 	z-index: 1;
-	top: 51%;
+	top: 70.5%;
 	left: 14%;
 	cursor: pointer;
 }
@@ -877,7 +904,7 @@ body {
 	border-radius: 5px;
 	position: absolute;
 	z-index: 2;
-	top: 50%;
+	top: 70%;
 	left: 16%;
 	cursor: pointer;
 	transform: scale(1);
@@ -886,14 +913,21 @@ body {
 #conduct-line1 #Paris2:hover {
 	transform: scale(2);
 }
+#conduct-line1 #city5 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 15%;
+	top: 53%;
+}
 
 #conduct-line1 #line5 {
 	background-color: #4286f4;
 	width: 2%; 
-	height: 3%;
+	height: 2%;
 	position: absolute;
 	z-index: 1;
-	top: 51%;
+	top: 70.5%;
 	left: 16%;
 	cursor: pointer;
 }
@@ -905,7 +939,7 @@ body {
 	border-radius: 5px;
 	position: absolute;
 	z-index: 2;
-	top: 50%;
+	top: 70%;
 	left: 18%;
 	cursor: pointer;
 	transform: scale(1);
@@ -914,14 +948,21 @@ body {
 #conduct-line1 #Berlin:hover {
 	transform: scale(2);
 }
+#conduct-line1 #city6 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 16.8%;
+	top: 52%;
+}
 
 #conduct-line1 #line6 {
 	background-color: #4286f4;
 	width: 12%; 
-	height: 3%;
+	height: 2%;
 	position: absolute;
 	z-index: 1;
-	top: 51%;
+	top: 70.5%;
 	left: 18%;
 	cursor: pointer;
 }
@@ -933,7 +974,7 @@ body {
 	border-radius: 5px;
 	position: absolute;
 	z-index: 2;
-	top: 50%;
+	top: 70%;
 	left: 30%;
 	cursor: pointer;
 	transform: scale(1);
@@ -942,14 +983,21 @@ body {
 #conduct-line1 #Moskow:hover {
 	transform: scale(2);
 }
+#conduct-line1 #city7 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 28%;
+	top: 49%;
+}
 
 #conduct-line1 #line7 {
 	background-color: #4286f4;
-	width: 20%; 
-	height: 3%;
+	width: 21%; 
+	height: 2%;
 	position: absolute;
 	z-index: 1;
-	top: 51%;
+	top: 70.5%;
 	left: 30%;
 	cursor: pointer;
 }
@@ -957,21 +1005,29 @@ body {
 #conduct-line1 #line8 {
 	background-color: #002666;
 	width: 1%; 
-	height: 3%;
+	height: 2%;
 	position: absolute;
 	z-index: 1;
-	top: 51%;
+	top: 70.5%;
 	left: 50%;
 	cursor: pointer;
+}
+
+#conduct-line1 #bridge {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 45.5%;
+	top: 34%;
 }
 
 #conduct-line1 #line9 {
 	background-color: #4286f4;
 	width: 13%; 
-	height: 3%;
+	height: 2%;
 	position: absolute;
 	z-index: 1;
-	top: 51%;
+	top: 70.5%;
 	left: 51%;
 	cursor: pointer;
 }
@@ -983,7 +1039,7 @@ body {
 	border-radius: 5px;
 	position: absolute;
 	z-index: 2;
-	top: 50%;
+	top: 70%;
 	left: 64%;
 	cursor: pointer;
 	transform: scale(1);
@@ -992,14 +1048,21 @@ body {
 #conduct-line1 #Montreal:hover {
 	transform: scale(2);
 }
+#conduct-line1 #city8 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 62%;
+	top: 48%;
+}
 
 #conduct-line1 #line10 {
 	background-color: #4286f4;
 	width: 2%; 
-	height: 3%;
+	height: 2%;
 	position: absolute;
 	z-index: 1;
-	top: 51%;
+	top: 70.5%;
 	left: 64%;
 	cursor: pointer;
 }
@@ -1011,7 +1074,7 @@ body {
 	border-radius: 5px;
 	position: absolute;
 	z-index: 2;
-	top: 50%;
+	top: 70%;
 	left: 66%;
 	cursor: pointer;
 	transform: scale(1);
@@ -1020,14 +1083,21 @@ body {
 #conduct-line1 #NewYork:hover {
 	transform: scale(2);
 }
+#conduct-line1 #city9 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 64%;
+	top: 47%;
+}
 
 #conduct-line1 #line11 {
 	background-color: #4286f4;
 	width: 2%; 
-	height: 3%;
+	height: 2%;
 	position: absolute;
 	z-index: 1;
-	top: 51%;
+	top: 70.5%;
 	left: 66%;
 	cursor: pointer;
 }
@@ -1039,7 +1109,7 @@ body {
 	border-radius: 5px;
 	position: absolute;
 	z-index: 2;
-	top: 50%;
+	top: 70%;
 	left: 68%;
 	cursor: pointer;
 	transform: scale(1);
@@ -1048,14 +1118,21 @@ body {
 #conduct-line1 #Washington:hover {
 	transform: scale(2);
 }
+#conduct-line1 #city10 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 65.5%;
+	top: 44%;
+}
 
 #conduct-line1 #line12 {
 	background-color: #4286f4;
 	width: 8%; 
-	height: 3%;
+	height: 2%;
 	position: absolute;
 	z-index: 1;
-	top: 51%;
+	top: 70.5%;
 	left: 68%;
 	cursor: pointer;
 }
@@ -1067,7 +1144,7 @@ body {
 	border-radius: 5px;
 	position: absolute;
 	z-index: 2;
-	top: 50%;
+	top: 70%;
 	left: 76%;
 	cursor: pointer;
 	transform: scale(1);
@@ -1076,14 +1153,21 @@ body {
 #conduct-line1 #SanFrancisco:hover {
 	transform: scale(2);
 }
+#conduct-line1 #city11 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 72.6%;
+	top: 42%;
+}
 
 #conduct-line1 #line13 {
 	background-color: #4286f4;
 	width: 2%; 
-	height: 3%;
+	height: 2%;
 	position: absolute;
 	z-index: 1;
-	top: 51%;
+	top: 70.5%;
 	left: 76%;
 	cursor: pointer;
 }
@@ -1095,7 +1179,7 @@ body {
 	border-radius: 5px;
 	position: absolute;
 	z-index: 2;
-	top: 50%;
+	top: 70%;
 	left: 78%;
 	cursor: pointer;
 	transform: scale(1);
@@ -1104,14 +1188,21 @@ body {
 #conduct-line1 #LosAngeles:hover {
 	transform: scale(2);
 }
+#conduct-line1 #city12 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 75%;
+	top: 44%;
+}
 
 #conduct-line1 #line14 {
 	background-color: #4286f4;
 	width: 22%; 
-	height: 3%;
+	height: 2%;
 	position: absolute;
 	z-index: 1;
-	top: 51%;
+	top: 70.5%;
 	left: 78%;
 	cursor: pointer;
 }
@@ -1123,7 +1214,7 @@ body {
 	border-radius: 5px;
 	position: absolute;
 	z-index: 2;
-	top: 50%;
+	top: 70%;
 	left: 100%;
 	cursor: pointer;
 	transform: scale(1);
@@ -1132,14 +1223,1966 @@ body {
 #conduct-line1 #RioDeJaneiro:hover {
 	transform: scale(2);
 }
+#conduct-line1 #city13 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 97%;
+	top: 44%;
+}
 
+/*----------------*/
 
+#conduct-line2 #Johannesburg {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 0%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line2 #Johannesburg:hover {
+	transform: scale(2);
+}
 
+#conduct-line2 #line1 {
+	background-color: #4286f4;
+	width:10%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 0.5%;
+	cursor: pointer;
+}
 
+#conduct-line2 #Cairo {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 10%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line2 #Cairo:hover {
+	transform: scale(2);
+}
 
+#conduct-line2 #line2 {
+	background-color: #4286f4;
+	width:2%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 10%;
+	cursor: pointer;
+}
 
+#conduct-line2 #Jerusalem {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 12%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line2 #Jerusalem:hover {
+	transform: scale(2);
+}
 
+#conduct-line2 #line3 {
+	background-color: #4286f4;
+	width:18%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 12%;
+	cursor: pointer;
+}
 
+#conduct-line2 #Moskow {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 30%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line2 #Moskow:hover {
+	transform: scale(2);
+}
+
+#conduct-line2 #line7 {
+	background-color: #4286f4;
+	width: 20%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 30%;
+	cursor: pointer;
+}
+
+#conduct-line2 #line8 {
+	background-color: #002666;
+	width: 1%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 50%;
+	cursor: pointer;
+}
+
+#conduct-line2 #line9 {
+	background-color: #4286f4;
+	width: 13%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 51%;
+	cursor: pointer;
+}
+
+#conduct-line2 #Montreal {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 64%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line2 #Montreal:hover {
+	transform: scale(2);
+}
+
+#conduct-line2 #line10 {
+	background-color: #4286f4;
+	width: 2%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 64%;
+	cursor: pointer;
+}
+
+#conduct-line2 #NewYork {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 66%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line2 #NewYork:hover {
+	transform: scale(2);
+}
+
+#conduct-line2 #line11 {
+	background-color: #4286f4;
+	width: 2%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 66%;
+	cursor: pointer;
+}
+
+#conduct-line2 #Washington {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 68%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line2 #Washington:hover {
+	transform: scale(2);
+}
+
+#conduct-line2 #line12 {
+	background-color: #4286f4;
+	width: 8%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 68%;
+	cursor: pointer;
+}
+
+#conduct-line2 #SanFrancisco {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 76%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line2 #SanFrancisco:hover {
+	transform: scale(2);
+}
+
+#conduct-line2 #line13 {
+	background-color: #4286f4;
+	width: 2%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 76%;
+	cursor: pointer;
+}
+
+#conduct-line2 #LosAngeles {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 78%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line2 #LosAngeles:hover {
+	transform: scale(2);
+}
+
+#conduct-line2 #line14 {
+	background-color: #4286f4;
+	width: 22%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 78%;
+	cursor: pointer;
+}
+
+#conduct-line2 #RioDeJaneiro {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 100%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line2 #RioDeJaneiro:hover {
+	transform: scale(2);
+}
+
+/*----------------*/
+
+#conduct-line3 #Johannesburg {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 0%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line3 #Johannesburg:hover {
+	transform: scale(2);
+}
+
+#conduct-line3 #line1 {
+	background-color: #4286f4;
+	width:10%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 0.5%;
+	cursor: pointer;
+}
+
+#conduct-line3 #Cairo {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 10%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line3 #Cairo:hover {
+	transform: scale(2);
+}
+
+#conduct-line3 #line2 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 10%;
+	cursor: pointer;
+}
+
+#conduct-line3 #Jerusalem {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 11.5%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line3 #Jerusalem:hover {
+	transform: scale(2);
+}
+
+#conduct-line3 #line3 {
+	background-color: #4286f4;
+	width:9%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 11.5%;
+	cursor: pointer;
+}
+
+#conduct-line3 #NewDelhi {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 20%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line3 #NewDelhi:hover {
+	transform: scale(2);
+}
+
+#conduct-line3 #line4 {
+	background-color: #4286f4;
+	width:8%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 20%;
+	cursor: pointer;
+}
+
+#conduct-line3 #HongKong {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 28%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line3 #HongKong:hover {
+	transform: scale(2);
+}
+
+#conduct-line3 #line5 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 28%;
+	cursor: pointer;
+}
+
+#conduct-line3 #Shanghai {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 29.5%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line3 #Shanghai:hover {
+	transform: scale(2);
+}
+
+#conduct-line3 #line6 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 29.5%;
+	cursor: pointer;
+}
+
+#conduct-line3 #Beijing1 {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 31%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line3 #Beijing1:hover {
+	transform: scale(2);
+}
+
+#conduct-line3 #line7 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 31%;
+	cursor: pointer;
+}
+
+#conduct-line3 #Seoul1 {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 32.5%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line3 #Seoul1:hover {
+	transform: scale(2);
+}
+
+#conduct-line3 #line8 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 32.5%;
+	cursor: pointer;
+}
+
+#conduct-line3 #Tokyo {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 34%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line3 #Tokyo:hover {
+	transform: scale(2);
+}
+
+#conduct-line3 #line9 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 34%;
+	cursor: pointer;
+}
+
+#conduct-line3 #Seoul2 {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 35.5%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line3 #Seoul2:hover {
+	transform: scale(2);
+}
+
+#conduct-line3 #line10 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 35.5%;
+	cursor: pointer;
+}
+
+#conduct-line3 #Beijing2 {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 37%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line3 #Beijing2:hover {
+	transform: scale(2);
+}
+
+#conduct-line3 #line11 {
+	background-color: #4286f4;
+	width: 14%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 37%;
+	cursor: pointer;
+}
+
+#conduct-line3 #line12 {
+	background-color: #002666;
+	width: 1%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 50%;
+	cursor: pointer;
+}
+
+#conduct-line3 #line13 {
+	background-color: #4286f4;
+	width: 13%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 51%;
+	cursor: pointer;
+}
+
+#conduct-line3 #Montreal {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 64%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line3 #Montreal:hover {
+	transform: scale(2);
+}
+
+#conduct-line3 #line14 {
+	background-color: #4286f4;
+	width: 2%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 64%;
+	cursor: pointer;
+}
+
+#conduct-line3 #NewYork {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 66%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line3 #NewYork:hover {
+	transform: scale(2);
+}
+
+#conduct-line3 #line15 {
+	background-color: #4286f4;
+	width: 2%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 66%;
+	cursor: pointer;
+}
+
+#conduct-line3 #Washington {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 68%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line3 #Washington:hover {
+	transform: scale(2);
+}
+
+#conduct-line3 #line16 {
+	background-color: #4286f4;
+	width: 8%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 68%;
+	cursor: pointer;
+}
+
+#conduct-line3 #SanFrancisco {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 76%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line3 #SanFrancisco:hover {
+	transform: scale(2);
+}
+
+#conduct-line3 #line17 {
+	background-color: #4286f4;
+	width: 2%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 76%;
+	cursor: pointer;
+}
+
+#conduct-line3 #LosAngeles {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 78%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line3 #LosAngeles:hover {
+	transform: scale(2);
+}
+
+#conduct-line3 #line18 {
+	background-color: #4286f4;
+	width: 22%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 78%;
+	cursor: pointer;
+}
+
+#conduct-line3 #RioDeJaneiro {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 100%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line3 #RioDeJaneiro:hover {
+	transform: scale(2);
+}
+
+/*----------------*/
+
+#conduct-line4 #Johannesburg {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 0%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line4 #Johannesburg:hover {
+	transform: scale(2);
+}
+
+#conduct-line4 #line1 {
+	background-color: #4286f4;
+	width:10%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 0.5%;
+	cursor: pointer;
+}
+
+#conduct-line4 #Cairo {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 10%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line4 #Cairo:hover {
+	transform: scale(2);
+}
+
+#conduct-line4 #line2 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 10%;
+	cursor: pointer;
+}
+
+#conduct-line4 #Jerusalem {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 11.5%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line4 #Jerusalem:hover {
+	transform: scale(2);
+}
+
+#conduct-line4 #line3 {
+	background-color: #4286f4;
+	width:9%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 11.5%;
+	cursor: pointer;
+}
+
+#conduct-line4 #NewDelhi {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 20%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line4 #NewDelhi:hover {
+	transform: scale(2);
+}
+
+#conduct-line4 #line4 {
+	background-color: #4286f4;
+	width:7%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 20%;
+	cursor: pointer;
+}
+
+#conduct-line4 #KualaLumpur {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 27%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line4 #KualaLumpur:hover {
+	transform: scale(2);
+}
+
+#conduct-line4 #line5 {
+	background-color: #4286f4;
+	width:2%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 27%;
+	cursor: pointer;
+}
+
+#conduct-line4 #Singapore {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 29%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line4 #Singapore:hover {
+	transform: scale(2);
+}
+
+#conduct-line4 #line6 {
+	background-color: #4286f4;
+	width:4%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 29%;
+	cursor: pointer;
+}
+
+#conduct-line4 #Jakarta {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 33%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line4 #Jakarta:hover {
+	transform: scale(2);
+}
+
+#conduct-line4 #line7 {
+	background-color: #4286f4;
+	width:10%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 33%;
+	cursor: pointer;
+}
+
+#conduct-line4 #Sydney {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 43%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line4 #Sydney:hover {
+	transform: scale(2);
+}
+
+/*----------------*/
+
+#conduct-line5 #Sydney {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 0%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line5 #Sydney:hover {
+	transform: scale(2);
+}
+
+#conduct-line5 #line1 {
+	background-color: #4286f4;
+	width:10%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 0%;
+	cursor: pointer;
+}
+
+#conduct-line5 #Jakarta {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 10%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line5 #Jakarta:hover {
+	transform: scale(2);
+}
+
+#conduct-line5 #line2 {
+	background-color: #4286f4;
+	width:4%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 10%;
+	cursor: pointer;
+}
+
+#conduct-line5 #Singapore {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 14%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line5 #Singapore:hover {
+	transform: scale(2);
+}
+
+#conduct-line5 #line3 {
+	background-color: #4286f4;
+	width:2%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 14%;
+	cursor: pointer;
+}
+
+#conduct-line5 #KualaLumpur {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 16%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line5 #KualaLumpur:hover {
+	transform: scale(2);
+}
+
+#conduct-line5 #line4 {
+	background-color: #4286f4;
+	width:6%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 16%;
+	cursor: pointer;
+}
+
+#conduct-line5 #HongKong {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 22%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line5 #HongKong:hover {
+	transform: scale(2);
+}
+
+#conduct-line5 #line5 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 22%;
+	cursor: pointer;
+}
+
+#conduct-line5 #Shanghai {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 23.5%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line5 #Shanghai:hover {
+	transform: scale(2);
+}
+
+#conduct-line5 #line6 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 23.5%;
+	cursor: pointer;
+}
+
+#conduct-line5 #Beijing1 {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 25%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line5 #Beijing1:hover {
+	transform: scale(2);
+}
+
+#conduct-line5 #line7 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 25%;
+	cursor: pointer;
+}
+
+#conduct-line5 #Seoul1 {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 26.5%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line5 #Seoul1:hover {
+	transform: scale(2);
+}
+
+#conduct-line5 #line8 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 26.5%;
+	cursor: pointer;
+}
+
+#conduct-line5 #Tokyo {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 28%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line5 #Tokyo:hover {
+	transform: scale(2);
+}
+
+#conduct-line5 #line9 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 28%;
+	cursor: pointer;
+}
+
+#conduct-line5 #Seoul2 {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 29.5%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line5 #Seoul2:hover {
+	transform: scale(2);
+}
+
+#conduct-line5 #line10 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 29.5%;
+	cursor: pointer;
+}
+
+#conduct-line5 #Beijing2 {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 31%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line5 #Beijing2:hover {
+	transform: scale(2);
+}
+
+#conduct-line5 #line11 {
+	background-color: #4286f4;
+	width:14%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 31%;
+	cursor: pointer;
+}
+
+#conduct-line5 #Moskow {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 45%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line5 #Moskow:hover {
+	transform: scale(2);
+}
+
+#conduct-line5 #line12 {
+	background-color: #4286f4;
+	width:10%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 45%;
+	cursor: pointer;
+}
+
+#conduct-line5 #Berlin {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 55%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line5 #Berlin:hover {
+	transform: scale(2);
+}
+
+#conduct-line5 #line13 {
+	background-color: #4286f4;
+	width:2%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 55%;
+	cursor: pointer;
+}
+
+#conduct-line5 #Paris1 {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 57%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line5 #Paris1:hover {
+	transform: scale(2);
+}
+
+#conduct-line5 #line14 {
+	background-color: #4286f4;
+	width:2%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 57%;
+	cursor: pointer;
+}
+
+#conduct-line5 #London {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 59%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line5 #London:hover {
+	transform: scale(2);
+}
+
+#conduct-line5 #line15 {
+	background-color: #4286f4;
+	width:2%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 59%;
+	cursor: pointer;
+}
+
+#conduct-line5 #Paris2 {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 61%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line5 #Paris2:hover {
+	transform: scale(2);
+}
+
+#conduct-line5 #line16 {
+	background-color: #4286f4;
+	width: 2%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 61%;
+	cursor: pointer;
+}
+
+#conduct-line5 #Madrid {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 63%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line5 #Madrid:hover {
+	transform: scale(2);
+}
+
+/*----------------*/
+
+#conduct-line6 #Sydney {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 0%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line6 #Sydney:hover {
+	transform: scale(2);
+}
+
+#conduct-line6 #line1 {
+	background-color: #4286f4;
+	width:10%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 0%;
+	cursor: pointer;
+}
+
+#conduct-line6 #Jakarta {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 10%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line6 #Jakarta:hover {
+	transform: scale(2);
+}
+
+#conduct-line6 #line2 {
+	background-color: #4286f4;
+	width:4%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 10%;
+	cursor: pointer;
+}
+
+#conduct-line6 #Singapore {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 14%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line6 #Singapore:hover {
+	transform: scale(2);
+}
+
+#conduct-line6 #line3 {
+	background-color: #4286f4;
+	width:2%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 14%;
+	cursor: pointer;
+}
+
+#conduct-line6 #KualaLumpur {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 16%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line6 #KualaLumpur:hover {
+	transform: scale(2);
+}
+
+#conduct-line6 #line4 {
+	background-color: #4286f4;
+	width:6%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 16%;
+	cursor: pointer;
+}
+
+#conduct-line6 #HongKong {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 22%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line6 #HongKong:hover {
+	transform: scale(2);
+}
+
+#conduct-line6 #line5 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 22%;
+	cursor: pointer;
+}
+
+#conduct-line6 #Shanghai {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 23.5%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line6 #Shanghai:hover {
+	transform: scale(2);
+}
+
+#conduct-line6 #line6 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 23.5%;
+	cursor: pointer;
+}
+
+#conduct-line6 #Beijing1 {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 25%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line6 #Beijing1:hover {
+	transform: scale(2);
+}
+
+#conduct-line6 #line7 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 25%;
+	cursor: pointer;
+}
+
+#conduct-line6 #Seoul1 {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 26.5%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line6 #Seoul1:hover {
+	transform: scale(2);
+}
+
+#conduct-line6 #line8 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 26.5%;
+	cursor: pointer;
+}
+
+#conduct-line6 #Tokyo {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 28%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line6 #Tokyo:hover {
+	transform: scale(2);
+}
+
+#conduct-line6 #line9 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 28%;
+	cursor: pointer;
+}
+
+#conduct-line6 #Seoul2 {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 29.5%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line6 #Seoul2:hover {
+	transform: scale(2);
+}
+
+#conduct-line6 #line10 {
+	background-color: #4286f4;
+	width:1.5%; 
+	height:2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 29.5%;
+	cursor: pointer;
+}
+
+#conduct-line6 #Beijing2 {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 31%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line6 #Beijing2:hover {
+	transform: scale(2);
+}
+
+#conduct-line6 #line11 {
+	background-color: #4286f4;
+	width: 14%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 31%;
+	cursor: pointer;
+}
+
+#conduct-line6 #line12 {
+	background-color: #002666;
+	width: 1%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 45%;
+	cursor: pointer;
+}
+
+#conduct-line6 #line13 {
+	background-color: #4286f4;
+	width: 13%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 46%;
+	cursor: pointer;
+}
+
+#conduct-line6 #Montreal {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 59%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line6 #Montreal:hover {
+	transform: scale(2);
+}
+
+#conduct-line6 #line14 {
+	background-color: #4286f4;
+	width: 2%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 59%;
+	cursor: pointer;
+}
+
+#conduct-line6 #NewYork {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 61%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line6 #NewYork:hover {
+	transform: scale(2);
+}
+
+#conduct-line6 #line15 {
+	background-color: #4286f4;
+	width: 2%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 61%;
+	cursor: pointer;
+}
+
+#conduct-line6 #Washington {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 63%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line6 #Washington:hover {
+	transform: scale(2);
+}
+
+#conduct-line6 #line16 {
+	background-color: #4286f4;
+	width: 8%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 63%;
+	cursor: pointer;
+}
+
+#conduct-line6 #SanFrancisco {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 71%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line6 #SanFrancisco:hover {
+	transform: scale(2);
+}
+
+#conduct-line6 #line17 {
+	background-color: #4286f4;
+	width: 2%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 71%;
+	cursor: pointer;
+}
+
+#conduct-line6 #LosAngeles {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 73%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line6 #LosAngeles:hover {
+	transform: scale(2);
+}
+
+#conduct-line6 #line18 {
+	background-color: #4286f4;
+	width: 22%; 
+	height: 2%;
+	position: absolute;
+	z-index: 1;
+	top: 70.5%;
+	left: 73%;
+	cursor: pointer;
+}
+
+#conduct-line6 #RioDeJaneiro {
+	background-color: #002666;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	left: 95%;
+	cursor: pointer;
+	transform: scale(1);
+	transition: .5s ease;
+}
+#conduct-line6 #RioDeJaneiro:hover {
+	transform: scale(2);
+}
 
 
 
