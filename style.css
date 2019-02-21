@@ -757,6 +757,10 @@ body {
 	text-align: left;
 }
 
+.conduct-line span {
+	font-weight: bolder;
+}
+
 #conduct-line1 #Johannesburg {
 	background-color: #002666;
 	width: 6px;
@@ -1249,6 +1253,13 @@ body {
 #conduct-line2 #Johannesburg:hover {
 	transform: scale(2);
 }
+#conduct-line2 #city1 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: -3%;
+	top: 40%;
+}
 
 #conduct-line2 #line1 {
 	background-color: #4286f4;
@@ -1276,6 +1287,13 @@ body {
 }
 #conduct-line2 #Cairo:hover {
 	transform: scale(2);
+}
+#conduct-line2 #city2 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 9%;
+	top: 53%;
 }
 
 #conduct-line2 #line2 {
@@ -1305,6 +1323,13 @@ body {
 #conduct-line2 #Jerusalem:hover {
 	transform: scale(2);
 }
+#conduct-line2 #city3 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 9.5%;
+	top: 46%;
+}
 
 #conduct-line2 #line3 {
 	background-color: #4286f4;
@@ -1333,6 +1358,13 @@ body {
 #conduct-line2 #Moskow:hover {
 	transform: scale(2);
 }
+#conduct-line2 #city7 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 28%;
+	top: 49%;
+}
 
 #conduct-line2 #line7 {
 	background-color: #4286f4;
@@ -1354,6 +1386,14 @@ body {
 	top: 70.5%;
 	left: 50%;
 	cursor: pointer;
+}
+
+#conduct-line2 #bridge {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 45.5%;
+	top: 34%;
 }
 
 #conduct-line2 #line9 {
@@ -1383,6 +1423,13 @@ body {
 #conduct-line2 #Montreal:hover {
 	transform: scale(2);
 }
+#conduct-line2 #city8 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 62%;
+	top: 48%;
+}
 
 #conduct-line2 #line10 {
 	background-color: #4286f4;
@@ -1410,6 +1457,13 @@ body {
 }
 #conduct-line2 #NewYork:hover {
 	transform: scale(2);
+}
+#conduct-line2 #city9 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 64%;
+	top: 47%;
 }
 
 #conduct-line2 #line11 {
@@ -1439,6 +1493,13 @@ body {
 #conduct-line2 #Washington:hover {
 	transform: scale(2);
 }
+#conduct-line2 #city10 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 65.5%;
+	top: 44%;
+}
 
 #conduct-line2 #line12 {
 	background-color: #4286f4;
@@ -1466,6 +1527,13 @@ body {
 }
 #conduct-line2 #SanFrancisco:hover {
 	transform: scale(2);
+}
+#conduct-line2 #city11 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 72.6%;
+	top: 42%;
 }
 
 #conduct-line2 #line13 {
@@ -1495,6 +1563,13 @@ body {
 #conduct-line2 #LosAngeles:hover {
 	transform: scale(2);
 }
+#conduct-line2 #city12 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 75%;
+	top: 44%;
+}
 
 #conduct-line2 #line14 {
 	background-color: #4286f4;
@@ -1523,6 +1598,13 @@ body {
 #conduct-line2 #RioDeJaneiro:hover {
 	transform: scale(2);
 }
+#conduct-line2 #city13 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 97%;
+	top: 44%;
+}
 
 /*----------------*/
 
@@ -1541,6 +1623,13 @@ body {
 }
 #conduct-line3 #Johannesburg:hover {
 	transform: scale(2);
+}
+#conduct-line3 #city1 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: -3%;
+	top: 40%;
 }
 
 #conduct-line3 #line1 {
@@ -1570,6 +1659,13 @@ body {
 #conduct-line3 #Cairo:hover {
 	transform: scale(2);
 }
+#conduct-line3 #city2 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 9%;
+	top: 53%;
+}
 
 #conduct-line3 #line2 {
 	background-color: #4286f4;
@@ -1597,6 +1693,13 @@ body {
 }
 #conduct-line3 #Jerusalem:hover {
 	transform: scale(2);
+}
+#conduct-line3 #city3 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 9.5%;
+	top: 46%;
 }
 
 #conduct-line3 #line3 {
@@ -1626,6 +1729,13 @@ body {
 #conduct-line3 #NewDelhi:hover {
 	transform: scale(2);
 }
+#conduct-line3 #city4 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 17.8%;
+	top: 46%;
+}
 
 #conduct-line3 #line4 {
 	background-color: #4286f4;
@@ -1653,6 +1763,13 @@ body {
 }
 #conduct-line3 #HongKong:hover {
 	transform: scale(2);
+}
+#conduct-line3 #city5 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 25.4%;
+	top: 45%;
 }
 
 #conduct-line3 #line5 {
@@ -1682,6 +1799,13 @@ body {
 #conduct-line3 #Shanghai:hover {
 	transform: scale(2);
 }
+#conduct-line3 #city6 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 27.5%;
+	top: 47%;
+}
 
 #conduct-line3 #line6 {
 	background-color: #4286f4;
@@ -1709,6 +1833,13 @@ body {
 }
 #conduct-line3 #Beijing1:hover {
 	transform: scale(2);
+}
+#conduct-line3 #city7 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 29.5%;
+	top: 51%;
 }
 
 #conduct-line3 #line7 {
@@ -1738,6 +1869,13 @@ body {
 #conduct-line3 #Seoul1:hover {
 	transform: scale(2);
 }
+#conduct-line3 #city8 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 31.2%;
+	top: 53%;
+}
 
 #conduct-line3 #line8 {
 	background-color: #4286f4;
@@ -1765,6 +1903,13 @@ body {
 }
 #conduct-line3 #Tokyo:hover {
 	transform: scale(2);
+}
+#conduct-line3 #city9 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 32.7%;
+	top: 53%;
 }
 
 #conduct-line3 #line9 {
@@ -1794,6 +1939,13 @@ body {
 #conduct-line3 #Seoul2:hover {
 	transform: scale(2);
 }
+#conduct-line3 #city10 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 34.5%;
+	top: 53%;
+}
 
 #conduct-line3 #line10 {
 	background-color: #4286f4;
@@ -1822,6 +1974,13 @@ body {
 #conduct-line3 #Beijing2:hover {
 	transform: scale(2);
 }
+#conduct-line3 #city11 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 35.7%;
+	top: 51%;
+}
 
 #conduct-line3 #line11 {
 	background-color: #4286f4;
@@ -1843,6 +2002,14 @@ body {
 	top: 70.5%;
 	left: 50%;
 	cursor: pointer;
+}
+
+#conduct-line3 #bridge {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 45.5%;
+	top: 34%;
 }
 
 #conduct-line3 #line13 {
@@ -1872,6 +2039,13 @@ body {
 #conduct-line3 #Montreal:hover {
 	transform: scale(2);
 }
+#conduct-line3 #city12 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 62%;
+	top: 48%;
+}
 
 #conduct-line3 #line14 {
 	background-color: #4286f4;
@@ -1899,6 +2073,13 @@ body {
 }
 #conduct-line3 #NewYork:hover {
 	transform: scale(2);
+}
+#conduct-line3 #city13 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 64%;
+	top: 47%;
 }
 
 #conduct-line3 #line15 {
@@ -1928,6 +2109,13 @@ body {
 #conduct-line3 #Washington:hover {
 	transform: scale(2);
 }
+#conduct-line3 #city14 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 65.5%;
+	top: 44%;
+}
 
 #conduct-line3 #line16 {
 	background-color: #4286f4;
@@ -1955,6 +2143,13 @@ body {
 }
 #conduct-line3 #SanFrancisco:hover {
 	transform: scale(2);
+}
+#conduct-line3 #city15 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 72.6%;
+	top: 42%;
 }
 
 #conduct-line3 #line17 {
@@ -1984,6 +2179,13 @@ body {
 #conduct-line3 #LosAngeles:hover {
 	transform: scale(2);
 }
+#conduct-line3 #city16 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 75%;
+	top: 44%;
+}
 
 #conduct-line3 #line18 {
 	background-color: #4286f4;
@@ -2012,6 +2214,13 @@ body {
 #conduct-line3 #RioDeJaneiro:hover {
 	transform: scale(2);
 }
+#conduct-line3 #city17 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 97%;
+	top: 44%;
+}
 
 /*----------------*/
 
@@ -2030,6 +2239,13 @@ body {
 }
 #conduct-line4 #Johannesburg:hover {
 	transform: scale(2);
+}
+#conduct-line4 #city1 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: -3%;
+	top: 40%;
 }
 
 #conduct-line4 #line1 {
@@ -2059,6 +2275,13 @@ body {
 #conduct-line4 #Cairo:hover {
 	transform: scale(2);
 }
+#conduct-line4 #city2 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 9%;
+	top: 53%;
+}
 
 #conduct-line4 #line2 {
 	background-color: #4286f4;
@@ -2086,6 +2309,13 @@ body {
 }
 #conduct-line4 #Jerusalem:hover {
 	transform: scale(2);
+}
+#conduct-line4 #city3 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 9.5%;
+	top: 46%;
 }
 
 #conduct-line4 #line3 {
@@ -2115,6 +2345,13 @@ body {
 #conduct-line4 #NewDelhi:hover {
 	transform: scale(2);
 }
+#conduct-line4 #city4 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 17.8%;
+	top: 46%;
+}
 
 #conduct-line4 #line4 {
 	background-color: #4286f4;
@@ -2142,6 +2379,13 @@ body {
 }
 #conduct-line4 #KualaLumpur:hover {
 	transform: scale(2);
+}
+#conduct-line4 #city5 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 24%;
+	top: 41%;
 }
 
 #conduct-line4 #line5 {
@@ -2171,6 +2415,13 @@ body {
 #conduct-line4 #Singapore:hover {
 	transform: scale(2);
 }
+#conduct-line4 #city6 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 27%;
+	top: 46%;
+}
 
 #conduct-line4 #line6 {
 	background-color: #4286f4;
@@ -2198,6 +2449,13 @@ body {
 }
 #conduct-line4 #Jakarta:hover {
 	transform: scale(2);
+}
+#conduct-line4 #city7 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 31.5%;
+	top: 50%;
 }
 
 #conduct-line4 #line7 {
@@ -2227,6 +2485,13 @@ body {
 #conduct-line4 #Sydney:hover {
 	transform: scale(2);
 }
+#conduct-line4 #city8 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 41.5%;
+	top: 50%;
+}
 
 /*----------------*/
 
@@ -2245,6 +2510,13 @@ body {
 }
 #conduct-line5 #Sydney:hover {
 	transform: scale(2);
+}
+#conduct-line5 #city1 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: -1.5%;
+	top: 50%;
 }
 
 #conduct-line5 #line1 {
@@ -2274,6 +2546,13 @@ body {
 #conduct-line5 #Jakarta:hover {
 	transform: scale(2);
 }
+#conduct-line5 #city2 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 8.5%;
+	top: 50%;
+}
 
 #conduct-line5 #line2 {
 	background-color: #4286f4;
@@ -2301,6 +2580,13 @@ body {
 }
 #conduct-line5 #Singapore:hover {
 	transform: scale(2);
+}
+#conduct-line5 #city3 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 12%;
+	top: 46%;
 }
 
 #conduct-line5 #line3 {
@@ -2330,6 +2616,13 @@ body {
 #conduct-line5 #KualaLumpur:hover {
 	transform: scale(2);
 }
+#conduct-line5 #city4 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 13%;
+	top: 41%;
+}
 
 #conduct-line5 #line4 {
 	background-color: #4286f4;
@@ -2357,6 +2650,13 @@ body {
 }
 #conduct-line5 #HongKong:hover {
 	transform: scale(2);
+}
+#conduct-line5 #city5 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 19.5%;
+	top: 45%;
 }
 
 #conduct-line5 #line5 {
@@ -2386,6 +2686,13 @@ body {
 #conduct-line5 #Shanghai:hover {
 	transform: scale(2);
 }
+#conduct-line5 #city6 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 21.5%;
+	top: 47.5%;
+}
 
 #conduct-line5 #line6 {
 	background-color: #4286f4;
@@ -2413,6 +2720,13 @@ body {
 }
 #conduct-line5 #Beijing1:hover {
 	transform: scale(2);
+}
+#conduct-line5 #city7 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 23.5%;
+	top: 50.5%;
 }
 
 #conduct-line5 #line7 {
@@ -2442,6 +2756,13 @@ body {
 #conduct-line5 #Seoul1:hover {
 	transform: scale(2);
 }
+#conduct-line5 #city8 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 25.5%;
+	top: 52.5%;
+}
 
 #conduct-line5 #line8 {
 	background-color: #4286f4;
@@ -2469,6 +2790,13 @@ body {
 }
 #conduct-line5 #Tokyo:hover {
 	transform: scale(2);
+}
+#conduct-line5 #city9 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 27%;
+	top: 52.5%;
 }
 
 #conduct-line5 #line9 {
@@ -2498,6 +2826,13 @@ body {
 #conduct-line5 #Seoul2:hover {
 	transform: scale(2);
 }
+#conduct-line5 #city10 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 28.5%;
+	top: 52.5%;
+}
 
 #conduct-line5 #line10 {
 	background-color: #4286f4;
@@ -2525,6 +2860,13 @@ body {
 }
 #conduct-line5 #Beijing2:hover {
 	transform: scale(2);
+}
+#conduct-line5 #city11 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 29.5%;
+	top: 51%;
 }
 
 #conduct-line5 #line11 {
@@ -2554,6 +2896,13 @@ body {
 #conduct-line5 #Moskow:hover {
 	transform: scale(2);
 }
+#conduct-line5 #city12 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 43%;
+	top: 48.5%;
+}
 
 #conduct-line5 #line12 {
 	background-color: #4286f4;
@@ -2581,6 +2930,13 @@ body {
 }
 #conduct-line5 #Berlin:hover {
 	transform: scale(2);
+}
+#conduct-line5 #city13 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 54%;
+	top: 51.5%;
 }
 
 #conduct-line5 #line13 {
@@ -2610,6 +2966,13 @@ body {
 #conduct-line5 #Paris1:hover {
 	transform: scale(2);
 }
+#conduct-line5 #city14 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 56%;
+	top: 53%;
+}
 
 #conduct-line5 #line14 {
 	background-color: #4286f4;
@@ -2637,6 +3000,13 @@ body {
 }
 #conduct-line5 #London:hover {
 	transform: scale(2);
+}
+#conduct-line5 #city15 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 57.5%;
+	top: 49.5%;
 }
 
 #conduct-line5 #line15 {
@@ -2666,6 +3036,13 @@ body {
 #conduct-line5 #Paris2:hover {
 	transform: scale(2);
 }
+#conduct-line5 #city16 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 60%;
+	top: 53%;
+}
 
 #conduct-line5 #line16 {
 	background-color: #4286f4;
@@ -2694,6 +3071,13 @@ body {
 #conduct-line5 #Madrid:hover {
 	transform: scale(2);
 }
+#conduct-line5 #city17 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 61.5%;
+	top: 50.5%;
+}
 
 /*----------------*/
 
@@ -2712,6 +3096,13 @@ body {
 }
 #conduct-line6 #Sydney:hover {
 	transform: scale(2);
+}
+#conduct-line6 #city1 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: -1.5%;
+	top: 50%;
 }
 
 #conduct-line6 #line1 {
@@ -2741,6 +3132,13 @@ body {
 #conduct-line6 #Jakarta:hover {
 	transform: scale(2);
 }
+#conduct-line6 #city2 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 8.5%;
+	top: 50%;
+}
 
 #conduct-line6 #line2 {
 	background-color: #4286f4;
@@ -2768,6 +3166,13 @@ body {
 }
 #conduct-line6 #Singapore:hover {
 	transform: scale(2);
+}
+#conduct-line6 #city3 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 12%;
+	top: 46%;
 }
 
 #conduct-line6 #line3 {
@@ -2797,6 +3202,13 @@ body {
 #conduct-line6 #KualaLumpur:hover {
 	transform: scale(2);
 }
+#conduct-line6 #city4 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 13%;
+	top: 41%;
+}
 
 #conduct-line6 #line4 {
 	background-color: #4286f4;
@@ -2824,6 +3236,13 @@ body {
 }
 #conduct-line6 #HongKong:hover {
 	transform: scale(2);
+}
+#conduct-line6 #city5 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 19.5%;
+	top: 45%;
 }
 
 #conduct-line6 #line5 {
@@ -2864,6 +3283,13 @@ body {
 	left: 23.5%;
 	cursor: pointer;
 }
+#conduct-line6 #city6 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 21.5%;
+	top: 47.5%;
+}
 
 #conduct-line6 #Beijing1 {
 	background-color: #002666;
@@ -2880,6 +3306,13 @@ body {
 }
 #conduct-line6 #Beijing1:hover {
 	transform: scale(2);
+}
+#conduct-line6 #city7 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 23.5%;
+	top: 50.5%;
 }
 
 #conduct-line6 #line7 {
@@ -2909,6 +3342,13 @@ body {
 #conduct-line6 #Seoul1:hover {
 	transform: scale(2);
 }
+#conduct-line6 #city8 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 25.5%;
+	top: 52.5%;
+}
 
 #conduct-line6 #line8 {
 	background-color: #4286f4;
@@ -2936,6 +3376,13 @@ body {
 }
 #conduct-line6 #Tokyo:hover {
 	transform: scale(2);
+}
+#conduct-line6 #city9 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 27%;
+	top: 52.5%;
 }
 
 #conduct-line6 #line9 {
@@ -2965,6 +3412,13 @@ body {
 #conduct-line6 #Seoul2:hover {
 	transform: scale(2);
 }
+#conduct-line6 #city10 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 28.5%;
+	top: 52.5%;
+}
 
 #conduct-line6 #line10 {
 	background-color: #4286f4;
@@ -2993,6 +3447,13 @@ body {
 #conduct-line6 #Beijing2:hover {
 	transform: scale(2);
 }
+#conduct-line6 #city11 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 29.5%;
+	top: 51%;
+}
 
 #conduct-line6 #line11 {
 	background-color: #4286f4;
@@ -3014,6 +3475,13 @@ body {
 	top: 70.5%;
 	left: 45%;
 	cursor: pointer;
+}
+#conduct-line6 #bridge {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 40.5%;
+	top: 34%;
 }
 
 #conduct-line6 #line13 {
@@ -3043,6 +3511,13 @@ body {
 #conduct-line6 #Montreal:hover {
 	transform: scale(2);
 }
+#conduct-line6 #city12 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 57%;
+	top: 47.5%;
+}
 
 #conduct-line6 #line14 {
 	background-color: #4286f4;
@@ -3070,6 +3545,13 @@ body {
 }
 #conduct-line6 #NewYork:hover {
 	transform: scale(2);
+}
+#conduct-line6 #city13 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 59%;
+	top: 47%;
 }
 
 #conduct-line6 #line15 {
@@ -3099,6 +3581,13 @@ body {
 #conduct-line6 #Washington:hover {
 	transform: scale(2);
 }
+#conduct-line6 #city14 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 60.5%;
+	top: 43.5%;
+}
 
 #conduct-line6 #line16 {
 	background-color: #4286f4;
@@ -3126,6 +3615,13 @@ body {
 }
 #conduct-line6 #SanFrancisco:hover {
 	transform: scale(2);
+}
+#conduct-line6 #city15 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 68%;
+	top: 41.5%;
 }
 
 #conduct-line6 #line17 {
@@ -3155,6 +3651,13 @@ body {
 #conduct-line6 #LosAngeles:hover {
 	transform: scale(2);
 }
+#conduct-line6 #city16 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 70.5%;
+	top: 43.5%;
+}
 
 #conduct-line6 #line18 {
 	background-color: #4286f4;
@@ -3183,7 +3686,13 @@ body {
 #conduct-line6 #RioDeJaneiro:hover {
 	transform: scale(2);
 }
-
+#conduct-line6 #city17 {
+	transform: rotate(-70deg);
+	position: absolute;
+	font-size: 13px;
+	left: 90%;
+	top: 43.5%;
+}
 
 
 

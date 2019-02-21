@@ -38,238 +38,340 @@
 		<div class="jumbotron text-center" style="margin: 40px 0px 40px">
 			<div id="routes">
 				<div class="conduct-line" id="conduct-line1">
-					<h1>Conduct line Joh-A (round-trip line)</h1>
+					<h1>Conduct line <span>Joh-A</span> (round-trip line)</h1>
 					<div id="Johannesburg" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="JOHANNESBURG" data-content="Arrival: Departure: "></div>
 					<div id="city1">Johannesburg</div>
 					<script>
-		    			$(document).ready(function () {
-							$('[data-toggle="popover"]').popover()
-							$('.popover-dismiss').popover({trigger: 'focus'})
+		    			$(document).ready(function(){
+							var timer;
+							$('[data-toggle="popover"]').popover({trigger: "manual", animation: false}).on("mouseenter", function(){$(this).popover("show");}).on("mouseleave", function(){
+								var self = $(this);
+								timer = setTimeout(function(){
+									self.popover("hide");
+								});
+							});
 						})
 		    		</script>
-		    		<div id="line1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Johannesburg - Madrid" data-content="Max speed: 2000 km/h"></div>
+		    		<div id="line1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Johannesburg - Madrid" data-content="Max speed: 2000 km/h; Length: 8300km"></div>
 					<div id="Madrid" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="MADRID" data-content="Arrival: Departure: "></div>
 					<div id="city2">Madrid</div>
-					<div id="line2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Madrid - Paris" data-content="Max speed: 600 km/h"></div>
+					<div id="line2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Madrid - Paris" data-content="Max speed: 600 km/h; Length: 1300km"></div>
 					<div id="Paris1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="PARIS" data-content="Arrival: Departure: "></div>
 					<div id="city3">Paris</div>
-					<div id="line3" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Paris - London" data-content="Max speed: 600 km/h"></div>
+					<div id="line3" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Paris - London" data-content="Max speed: 600 km/h; Length: 600km"></div>
 					<div id="London" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="LONDON" data-content="Arrival: Departure: "></div>
 					<div id="city4">London</div>
-					<div id="line4" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="London - Paris" data-content="Max speed: 600 km/h"></div>
+					<div id="line4" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="London - Paris" data-content="Max speed: 600 km/h; Length: 600km"></div>
 					<div id="Paris2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="PARIS" data-content="Arrival: Departure: "></div>
 					<div id="city5">Paris</div>
-					<div id="line5" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Paris - Berlin" data-content="Max speed: 600 km/h"></div>
+					<div id="line5" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Paris - Berlin" data-content="Max speed: 600 km/h; Length: 1000km"></div>
 					<div id="Berlin" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="BERLIN" data-content="Arrival: Departure: "></div>
 					<div id="city6">Berlin</div>
-					<div id="line6" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Berlin - Moskow" data-content="Max speed: 600 km/h"></div>
+					<div id="line6" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Berlin - Moskow" data-content="Max speed: 1000 km/h; Length: 1000km"></div>
 					<div id="Moskow" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="MOSKOW" data-content="Arrival: Departure: "></div>
 					<div id="city7">Moskow</div>
-					<div id="line7" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Moskow - Bering Strait Bridge" data-content="Max speed: 2000 km/h"></div>
-					<div id="line8" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge" data-content="Max speed: 1000 km/h"></div>
+					<div id="line7" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Moskow - Bering Strait Bridge" data-content="Max speed: 2000 km/h; Length: 10500km"></div>
+					<div id="line8" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge" data-content="Max speed: 1000 km/h; Length: 150km"></div>
 					<div id="bridge">Bering Strait Bridge</div>
-					<div id="line9" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge - Montreal" data-content="Max speed: 2000 km/h"></div>
+					<div id="line9" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge - Montreal" data-content="Max speed: 2000 km/h; Length: 7000km"></div>
 					<div id="Montreal" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="MONTREAL" data-content="Arrival: Departure: "></div>
 					<div id="city8">Montreal</div>
-					<div id="line10" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Montreal - New York" data-content="Max speed: 600 km/h"></div>
+					<div id="line10" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Montreal - New York" data-content="Max speed: 600 km/h; Length: 430km"></div>
 					<div id="NewYork" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="NEW YORK" data-content="Arrival: Departure: "></div>
 					<div id="city9">New York</div>
-					<div id="line11" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="New York - Washington" data-content="Max speed: 600 km/h"></div>
+					<div id="line11" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="New York - Washington" data-content="Max speed: 600 km/h; Length: 370km"></div>
 					<div id="Washington" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="WASHINGTON" data-content="Arrival: Departure: "></div>
 					<div id="city10">Washington</div>
-					<div id="line12" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Washington - San Francisco" data-content="Max speed: 1000 km/h"></div>
+					<div id="line12" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Washington - San Francisco" data-content="Max speed: 1000 km/h; Length: 4300km"></div>
 					<div id="SanFrancisco" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SAN FRANCISCO" data-content="Arrival: Departure: "></div>
 					<div id="city11">San Francisco</div>
-					<div id="line13" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="San Francisco - Los Angeles" data-content="Max speed: 600 km/h"></div>
+					<div id="line13" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="San Francisco - Los Angeles" data-content="Max speed: 600 km/h; Length: 510km"></div>
 					<div id="LosAngeles" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="LOS ANGELES" data-content="Arrival: Departure: "></div>
 					<div id="city12">Los Angeles</div>
-					<div id="line14" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Los Angeles - Rio De Janeiro" data-content="Max speed: 2000 km/h"></div>
+					<div id="line14" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Los Angeles - Rio De Janeiro" data-content="Max speed: 2000 km/h; Length: 8900km"></div>
 					<div id="RioDeJaneiro" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="RIO DE JANEIRO" data-content="Arrival: Departure: "></div>
 					<div id="city13">Rio De Janeiro</div>
 				</div>
 				<div class="conduct-line" id="conduct-line2">
-					<h1>Conduct line Joh-B (round-trip line)</h1>
+					<h1>Conduct line <span>Joh-B</span> (round-trip line)</h1>
 					<div id="Johannesburg" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="JOHANNESBURG" data-content="Arrival: Departure: "></div>
 					<script>
-		    			$(document).ready(function () {
-							$('[data-toggle="popover"]').popover()
-							$('.popover-dismiss').popover({trigger: 'focus'})
+		    			$(document).ready(function(){
+							var timer;
+							$('[data-toggle="popover"]').popover({trigger: "manual", animation: false}).on("mouseenter", function(){$(this).popover("show");}).on("mouseleave", function(){
+								var self = $(this);
+								timer = setTimeout(function(){
+									self.popover("hide");
+								});
+							});
 						})
 		    		</script>
-		    		<div id="line1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Johannesburg - Cairo" data-content="Max speed: 2000 km/h"></div>
+		    		<div id="line1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Johannesburg - Cairo" data-content="Max speed: 2000 km/h; Length: 5800km"></div>
+		    		<div id="city1">Johannesburg</div>
 					<div id="Cairo" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="CAIRO" data-content="Arrival: Departure: "></div>
-					<div id="line2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Cairo - Jerusalem" data-content="Max speed: 600 km/h"></div>
+					<div id="city2">Cairo</div>
+					<div id="line2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Cairo - Jerusalem" data-content="Max speed: 600 km/h; Length: 350km"></div>
 					<div id="Jerusalem" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="JERUSALEM" data-content="Arrival: Departure: "></div>
-					<div id="line3" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jerusalem - Moskow" data-content="Max speed: 1000 km/h"></div>
+					<div id="city3">Jerusalem</div>
+					<div id="line3" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jerusalem - Moskow" data-content="Max speed: 1000 km/h; Length: 3600km"></div>
 					<div id="Moskow" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="MOSKOW" data-content="Arrival: Departure: "></div>
-					<div id="line7" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Moskow - Bering Strait Bridge" data-content="Max speed: 2000 km/h"></div>
-					<div id="line8" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge" data-content="Max speed: 1000 km/h"></div>
-					<div id="line9" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge - Montreal" data-content="Max speed: 2000 km/h"></div>
-					<div id="Montreal" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="MONTREAL" data-content="Arrival: Departure: "></div>		
-					<div id="line10" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Montreal - New York" data-content="Max speed: 600 km/h"></div>
+					<div id="city7">Moskow</div>
+					<div id="line7" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Moskow - Bering Strait Bridge" data-content="Max speed: 2000 km/h; Length: 10500km"></div>
+					<div id="line8" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge" data-content="Max speed: 1000 km/h; Length: 150km"></div>
+					<div id="bridge">Bering Strait Bridge</div>
+					<div id="line9" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge - Montreal" data-content="Max speed: 2000 km/h; Length: 7000km"></div>
+					<div id="Montreal" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="MONTREAL" data-content="Arrival: Departure: "></div>
+					<div id="city8">Montreal</div>		
+					<div id="line10" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Montreal - New York" data-content="Max speed: 600 km/h; Length: 430km"></div>
 					<div id="NewYork" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="NEW YORK" data-content="Arrival: Departure: "></div>
-					<div id="line11" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="New York - Washington" data-content="Max speed: 600 km/h"></div>
+					<div id="city9">New York</div>
+					<div id="line11" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="New York - Washington" data-content="Max speed: 600 km/h; Length: 370km"></div>
 					<div id="Washington" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="WASHINGTON" data-content="Arrival: Departure: "></div>
-					<div id="line12" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Washington - San Francisco" data-content="Max speed: 1000 km/h"></div>
+					<div id="city10">Washington</div>
+					<div id="line12" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Washington - San Francisco" data-content="Max speed: 1000 km/h; Length: 4300km"></div>
 					<div id="SanFrancisco" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SAN FRANCISCO" data-content="Arrival: Departure: "></div>
-					<div id="line13" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="San Francisco - Los Angeles" data-content="Max speed: 600 km/h"></div>
+					<div id="city11">San Francisco</div>
+					<div id="line13" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="San Francisco - Los Angeles" data-content="Max speed: 600 km/h; Length: 510km"></div>
 					<div id="LosAngeles" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="LOS ANGELES" data-content="Arrival: Departure: "></div>
-					<div id="line14" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Los Angeles - Rio De Janeiro" data-content="Max speed: 2000 km/h"></div>
+					<div id="city12">Los Angeles</div>
+					<div id="line14" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Los Angeles - Rio De Janeiro" data-content="Max speed: 2000 km/h; Length: 8900km"></div>
 					<div id="RioDeJaneiro" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="RIO DE JANEIRO" data-content="Arrival: Departure: "></div>
+					<div id="city13">Rio De Janeiro</div>
 				</div>
 				<div class="conduct-line" id="conduct-line3">
-					<h1>Conduct line Joh-C (round-trip line)</h1>
+					<h1>Conduct line <span>Joh-C</span> (round-trip line)</h1>
 					<div id="Johannesburg" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="JOHANNESBURG" data-content="Arrival: Departure: "></div>
+					<div id="city1">Johannesburg</div>
 					<script>
-		    			$(document).ready(function () {
-							$('[data-toggle="popover"]').popover()
-							$('.popover-dismiss').popover({trigger: 'focus'})
+		    			$(document).ready(function(){
+							var timer;
+							$('[data-toggle="popover"]').popover({trigger: "manual", animation: false}).on("mouseenter", function(){$(this).popover("show");}).on("mouseleave", function(){
+								var self = $(this);
+								timer = setTimeout(function(){
+									self.popover("hide");
+								});
+							});
 						})
 		    		</script>
-					<div id="line1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Johannesburg - Cairo" data-content="Max speed: 2000 km/h"></div>
+					<div id="line1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Johannesburg - Cairo" data-content="Max speed: 2000 km/h; Length: 5800km"></div>
 					<div id="Cairo" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="CAIRO" data-content="Arrival: Departure: "></div>
-					<div id="line2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Cairo - Jerusalem" data-content="Max speed: 600 km/h"></div>
+					<div id="city2">Cairo</div>
+					<div id="line2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Cairo - Jerusalem" data-content="Max speed: 600 km/h; Length: 350km"></div>
 					<div id="Jerusalem" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="JERUSALEM" data-content="Arrival: Departure: "></div>
-					<div id="line3" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jerusalem - New Delhi" data-content="Max speed: 1000 km/h"></div>
+					<div id="city3">Jerusalem</div>
+					<div id="line3" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jerusalem - New Delhi" data-content="Max speed: 1000 km/h; Length: 4200km"></div>
 					<div id="NewDelhi" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="NEW DELHI" data-content="Arrival: Departure: "></div>
-					<div id="line4" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="New Delhi - Hong Kong" data-content="Max speed: 600 km/h"></div>
+					<div id="city4">New Delhi</div>
+					<div id="line4" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="New Delhi - Hong Kong" data-content="Max speed: 600 km/h; Length: 4800km"></div>
 					<div id="HongKong" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="HONG KONG" data-content="Arrival: Departure: "></div>
-					<div id="line5" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Hong Kong - Shanghai" data-content="Max speed: 600 km/h"></div>
+					<div id="city5">Hong Kong</div>
+					<div id="line5" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Hong Kong - Shanghai" data-content="Max speed: 600 km/h; Length: 490km"></div>
 					<div id="Shanghai" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SHANGHAI" data-content="Arrival: Departure: "></div>
-					<div id="line6" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Shanghai - Beijing" data-content="Max speed: 600 km/h"></div>
+					<div id="city6">Shanghai</div>
+					<div id="line6" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Shanghai - Beijing" data-content="Max speed: 600 km/h; Length: 1200km"></div>
 					<div id="Beijing1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="BEIJING" data-content="Arrival: Departure: "></div>
-					<div id="line7" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Seoul" data-content="Max speed: 600 km/h"></div>
+					<div id="city7">Beijing</div>
+					<div id="line7" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Seoul" data-content="Max speed: 600 km/h; Length: 1100km"></div>
 					<div id="Seoul1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SEOUL" data-content="Arrival: Departure: "></div>
-					<div id="line8" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Seoul - Tokyo" data-content="Max speed: 600 km/h"></div>
+					<div id="city8">Seoul</div>
+					<div id="line8" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Seoul - Tokyo" data-content="Max speed: 600 km/h; Length: 1100km"></div>
 		    		<div id="Tokyo" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="TOKYO" data-content="Arrival: Departure: "></div>
-		    		<div id="line9" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Tokyo - Seoul" data-content="Max speed: 600 km/h"></div>
+		    		<div id="city9">Tokyo</div>
+		    		<div id="line9" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Tokyo - Seoul" data-content="Max speed: 600 km/h; Length: 1100km"></div>
 		    		<div id="Seoul2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SEOUL" data-content="Arrival: Departure: "></div>
-		    		<div id="line10" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Seoul - Beijing" data-content="Max speed: 600 km/h"></div>
+		    		<div id="city10">Seoul</div>
+		    		<div id="line10" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Seoul - Beijing" data-content="Max speed: 600 km/h; Length: 1100km"></div>
 		    		<div id="Beijing2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="BEIJING" data-content="Arrival: Departure: "></div>
-		    		<div id="line11" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Bering Strait Bridge" data-content="Max speed: 2000 km/h"></div>
-					<div id="line12" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge" data-content="Max speed: 1000 km/h"></div>
-					<div id="line13" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge - Montreal" data-content="Max speed: 2000 km/h"></div>
-					<div id="Montreal" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="MONTREAL" data-content="Arrival: Departure: "></div>		
-					<div id="line14" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Montreal - New York" data-content="Max speed: 600 km/h"></div>
+		    		<div id="city11">Beijing</div>
+		    		<div id="line11" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Bering Strait Bridge" data-content="Max speed: 2000 km/h; Length: 6200km"></div>
+					<div id="line12" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge" data-content="Max speed: 1000 km/h; Length: 150km"></div>
+					<div id="bridge">Bering Strait Bridge</div>
+					<div id="line13" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge - Montreal" data-content="Max speed: 2000 km/h; Length: 7000km"></div>
+					<div id="Montreal" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="MONTREAL" data-content="Arrival: Departure: "></div>
+					<div id="city12">Montreal</div>		
+					<div id="line14" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Montreal - New York" data-content="Max speed: 600 km/h; Length: 430km"></div>
 					<div id="NewYork" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="NEW YORK" data-content="Arrival: Departure: "></div>
-					<div id="line15" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="New York - Washington" data-content="Max speed: 600 km/h"></div>
+					<div id="city13">New York</div>
+					<div id="line15" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="New York - Washington" data-content="Max speed: 600 km/h; Length: 370km"></div>
 					<div id="Washington" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="WASHINGTON" data-content="Arrival: Departure: "></div>
-					<div id="line16" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Washington - San Francisco" data-content="Max speed: 1000 km/h"></div>
+					<div id="city14">Washington</div>
+					<div id="line16" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Washington - San Francisco" data-content="Max speed: 1000 km/h; Length: 4300km"></div>
 					<div id="SanFrancisco" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SAN FRANCISCO" data-content="Arrival: Departure: "></div>
-					<div id="line17" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="San Francisco - Los Angeles" data-content="Max speed: 600 km/h"></div>
+					<div id="city15">San Francisco</div>
+					<div id="line17" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="San Francisco - Los Angeles" data-content="Max speed: 600 km/h; Length: 510km"></div>
 					<div id="LosAngeles" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="LOS ANGELES" data-content="Arrival: Departure: "></div>
-					<div id="line18" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Los Angeles - Rio De Janeiro" data-content="Max speed: 2000 km/h"></div>
+					<div id="city16">Los Angeles</div>
+					<div id="line18" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Los Angeles - Rio De Janeiro" data-content="Max speed: 2000 km/h; Length: 8900km"></div>
 					<div id="RioDeJaneiro" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="RIO DE JANEIRO" data-content="Arrival: Departure: "></div>
+					<div id="city17">Rio De Janeiro</div>
 				</div>
 				<div class="conduct-line" id="conduct-line4">
-					<h1>Conduct line Joh-D / Syd-A (round-trip line)</h1>
+					<h1>Conduct line <span>Joh-D / Syd-A</span> (round-trip line)</h1>
 					<div id="Johannesburg" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="JOHANNESBURG" data-content="Arrival: Departure: "></div>
+					<div id="city1">Johannesburg</div>
 					<script>
-		    			$(document).ready(function () {
-							$('[data-toggle="popover"]').popover()
-							$('.popover-dismiss').popover({trigger: 'focus'})
+		    			$(document).ready(function(){
+							var timer;
+							$('[data-toggle="popover"]').popover({trigger: "manual", animation: false}).on("mouseenter", function(){$(this).popover("show");}).on("mouseleave", function(){
+								var self = $(this);
+								timer = setTimeout(function(){
+									self.popover("hide");
+								});
+							});
 						})
 		    		</script>
-					<div id="line1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Johannesburg - Cairo" data-content="Max speed: 2000 km/h"></div>
+					<div id="line1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Johannesburg - Cairo" data-content="Max speed: 2000 km/h; Length: 5800km"></div>
 					<div id="Cairo" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="CAIRO" data-content="Arrival: Departure: "></div>
-					<div id="line2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Cairo - Jerusalem" data-content="Max speed: 600 km/h"></div>
+					<div id="city2">Cairo</div>
+					<div id="line2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Cairo - Jerusalem" data-content="Max speed: 600 km/h; Length: 350km"></div>
 					<div id="Jerusalem" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="JERUSALEM" data-content="Arrival: Departure: "></div>
-					<div id="line3" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jerusalem - New Delhi" data-content="Max speed: 1000 km/h"></div>
+					<div id="city3">Jerusalem</div>
+					<div id="line3" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jerusalem - New Delhi" data-content="Max speed: 1000 km/h; Length: 4200km"></div>
 					<div id="NewDelhi" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="NEW DELHI" data-content="Arrival: Departure: "></div>
-					<div id="line4" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="New Delhi - Kuala Lumpur" data-content="Max speed: 600 km/h"></div>
+					<div id="city4">New Delhi</div>
+					<div id="line4" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="New Delhi - Kuala Lumpur" data-content="Max speed: 600 km/h; Length: 3800km"></div>
 					<div id="KualaLumpur" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="KUALA LUMPUR" data-content="Arrival: Departure: "></div>
-					<div id="line5" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Kuala Lumpur - Singapore" data-content="Max speed: 600 km/h"></div>
+					<div id="city5">Kuala Lumpur</div>
+					<div id="line5" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Kuala Lumpur - Singapore" data-content="Max speed: 600 km/h; Length: 450km"></div>
 					<div id="Singapore" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SINGAPORE" data-content="Arrival: Departure: "></div>
-					<div id="line6" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Singapore - Jakarta" data-content="Max speed: 600 km/h"></div>
+					<div id="city6">Singapore</div>
+					<div id="line6" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Singapore - Jakarta" data-content="Max speed: 600 km/h; Length: 1300km"></div>
 					<div id="Jakarta" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="JAKARTA" data-content="Arrival: Departure: "></div>
-					<div id="line7" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jakarta - Sydney" data-content="Max speed: 1000 km/h"></div>
+					<div id="city7">Jakarta</div>
+					<div id="line7" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jakarta - Sydney" data-content="Max speed: 1000 km/h; Length: 4500km"></div>
 					<div id="Sydney" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SYDNEY" data-content="Arrival: Departure: "></div>
+					<div id="city8">Sydney</div>
 				</div>
 				<div class="conduct-line" id="conduct-line5">
-					<h1>Conduct line Syd-B (round-trip line)</h1>
+					<h1>Conduct line <span>Syd-B</span> (round-trip line)</h1>
 					<div id="Sydney" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SYDNEY" data-content="Arrival: Departure: "></div>
+					<div id="city1">Sydney</div>
 					<script>
-		    			$(document).ready(function () {
-							$('[data-toggle="popover"]').popover()
-							$('.popover-dismiss').popover({trigger: 'focus'})
+		    			$(document).ready(function(){
+							var timer;
+							$('[data-toggle="popover"]').popover({trigger: "manual", animation: false}).on("mouseenter", function(){$(this).popover("show");}).on("mouseleave", function(){
+								var self = $(this);
+								timer = setTimeout(function(){
+									self.popover("hide");
+								});
+							});
 						})
 		    		</script>
-		    		<div id="line1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Sydney - Jakarta" data-content="Max speed: 1000 km/h"></div>
+		    		<div id="line1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Sydney - Jakarta" data-content="Max speed: 1000 km/h; Length: 4500km"></div>
 					<div id="Jakarta" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="JAKARTA" data-content="Arrival: Departure: "></div>
-					<div id="line2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jakarta - Singapore" data-content="Max speed: 600 km/h"></div>
+					<div id="city2">Jakarta</div>
+					<div id="line2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jakarta - Singapore" data-content="Max speed: 600 km/h; Length: 1300km"></div>
 					<div id="Singapore" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SINGAPORE" data-content="Arrival: Departure: "></div>
-					<div id="line3" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Singapore - Kuala Lumpur" data-content="Max speed: 600 km/h"></div>
+					<div id="city3">Singapore</div>
+					<div id="line3" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Singapore - Kuala Lumpur" data-content="Max speed: 600 km/h; Length: 450km"></div>
 					<div id="KualaLumpur" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="KUALA LUMPUR" data-content="Arrival: Departure: "></div>
-					<div id="line4" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Kuala Lumpur - Hong Kong" data-content="Max speed: 600 km/h"></div>
+					<div id="city4">Kuala Lumpur</div>
+					<div id="line4" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Kuala Lumpur - Hong Kong" data-content="Max speed: 600 km/h; Length: 2600km"></div>
 					<div id="HongKong" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="HONG KONG" data-content="Arrival: Departure: "></div>
-					<div id="line5" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Hong Kong - Shanghai" data-content="Max speed: 600 km/h"></div>
+					<div id="city5">Hong Kong</div>
+					<div id="line5" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Hong Kong - Shanghai" data-content="Max speed: 600 km/h; Length: 490km"></div>
 					<div id="Shanghai" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SHANGHAI" data-content="Arrival: Departure: "></div>
-					<div id="line6" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Shanghai - Beijing" data-content="Max speed: 600 km/h"></div>
+					<div id="city6">Shanghai</div>
+					<div id="line6" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Shanghai - Beijing" data-content="Max speed: 600 km/h; Length: 1200km"></div>
 					<div id="Beijing1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="BEIJING" data-content="Arrival: Departure: "></div>
-					<div id="line7" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Seoul" data-content="Max speed: 600 km/h"></div>
+					<div id="city7">Beijing</div>
+					<div id="line7" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Seoul" data-content="Max speed: 600 km/h; Length: 1100km"></div>
 					<div id="Seoul1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SEOUL" data-content="Arrival: Departure: "></div>
-					<div id="line8" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Seoul - Tokyo" data-content="Max speed: 600 km/h"></div>
+					<div id="city8">Seoul</div>
+					<div id="line8" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Seoul - Tokyo" data-content="Max speed: 600 km/h; Length: 1100km"></div>
 		    		<div id="Tokyo" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="TOKYO" data-content="Arrival: Departure: "></div>
-		    		<div id="line9" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Tokyo - Seoul" data-content="Max speed: 600 km/h"></div>
+		    		<div id="city9">Tokyo</div>
+		    		<div id="line9" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Tokyo - Seoul" data-content="Max speed: 600 km/h; Length: 1100km"></div>
 		    		<div id="Seoul2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SEOUL" data-content="Arrival: Departure: "></div>
-		    		<div id="line10" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Seoul - Beijing" data-content="Max speed: 600 km/h"></div>
+		    		<div id="city10">Seoul</div>
+		    		<div id="line10" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Seoul - Beijing" data-content="Max speed: 600 km/h; Length: 1100km"></div>
 		    		<div id="Beijing2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="BEIJING" data-content="Arrival: Departure: "></div>
-		    		<div id="line11" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Moskow" data-content="Max speed: 2000 km/h"></div>
+		    		<div id="city11">Beijing</div>
+		    		<div id="line11" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Moskow" data-content="Max speed: 2000 km/h; Length: 7500km"></div>
 		    		<div id="Moskow" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="MOSKOW" data-content="Arrival: Departure: "></div>
-		    		<div id="line12" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Moskow - Berlin" data-content="Max speed: 600 km/h"></div>
+		    		<div id="city12">Moskow</div>
+		    		<div id="line12" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Moskow - Berlin" data-content="Max speed: 1000 km/h; Length: 3000km"></div>
 		    		<div id="Berlin" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="BERLIN" data-content="Arrival: Departure: "></div>
-		    		<div id="line13" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Berlin - Paris" data-content="Max speed: 600 km/h"></div>
+		    		<div id="city13">Berlin</div>
+		    		<div id="line13" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Berlin - Paris" data-content="Max speed: 600 km/h; Length: 1000km"></div>
 		    		<div id="Paris1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="PARIS" data-content="Arrival: Departure: "></div>
-		    		<div id="line14" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Paris - London" data-content="Max speed: 600 km/h"></div>
+		    		<div id="city14">Paris</div>
+		    		<div id="line14" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Paris - London" data-content="Max speed: 600 km/h; Length: 600km"></div>
 		    		<div id="London" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="LONDON" data-content="Arrival: Departure: "></div>
-		    		<div id="line15" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="London - Paris" data-content="Max speed: 600 km/h"></div>
+		    		<div id="city15">London</div>
+		    		<div id="line15" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="London - Paris" data-content="Max speed: 600 km/h; Length: 600km"></div>
 		    		<div id="Paris2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="PARIS" data-content="Arrival: Departure: "></div>
-		    		<div id="line16" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Paris - Madrid" data-content="Max speed: 600 km/h"></div>
+		    		<div id="city16">Paris</div>
+		    		<div id="line16" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Paris - Madrid" data-content="Max speed: 600 km/h; Length: 1300km"></div>
 		    		<div id="Madrid" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="MADRID" data-content="Arrival: Departure: "></div>
+		    		<div id="city17">Madrid</div>
 		    	</div>
 				<div class="conduct-line" id="conduct-line6">
-					<h1>Conduct line Syd-C (round-trip line)</h1>
+					<h1>Conduct line <span>Syd-C</span> (round-trip line)</h1>
 					<div id="Sydney" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SYDNEY" data-content="Arrival: Departure: "></div>
+					<div id="city1">Sydney</div>
 					<script>
-		    			$(document).ready(function () {
-							$('[data-toggle="popover"]').popover()
-							$('.popover-dismiss').popover({trigger: 'focus'})
+		    			$(document).ready(function(){
+							var timer;
+							$('[data-toggle="popover"]').popover({trigger: "manual", animation: false}).on("mouseenter", function(){$(this).popover("show");}).on("mouseleave", function(){
+								var self = $(this);
+								timer = setTimeout(function(){
+									self.popover("hide");
+								});
+							});
 						})
 		    		</script>
-					<div id="line1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Sydney - Jakarta" data-content="Max speed: 1000 km/h"></div>
+					<div id="line1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Sydney - Jakarta" data-content="Max speed: 1000 km/h; Length: 4500km"></div>
 					<div id="Jakarta" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="JAKARTA" data-content="Arrival: Departure: "></div>
-					<div id="line2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jakarta - Singapore" data-content="Max speed: 600 km/h"></div>
+					<div id="city2">Jakarta</div>
+					<div id="line2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jakarta - Singapore" data-content="Max speed: 600 km/h; Length: 1300km"></div>
 					<div id="Singapore" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SINGAPORE" data-content="Arrival: Departure: "></div>
-					<div id="line3" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Singapore - Kuala Lumpur" data-content="Max speed: 600 km/h"></div>
+					<div id="city3">Singapore</div>
+					<div id="line3" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Singapore - Kuala Lumpur" data-content="Max speed: 600 km/h; Length: 450km"></div>
 					<div id="KualaLumpur" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="KUALA LUMPUR" data-content="Arrival: Departure: "></div>
-					<div id="line4" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Kuala Lumpur - Hong Kong" data-content="Max speed: 600 km/h"></div>
+					<div id="city4">Kuala Lumpur</div>
+					<div id="line4" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Kuala Lumpur - Hong Kong" data-content="Max speed: 600 km/h; Length: 2600km"></div>
 					<div id="HongKong" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="HONG KONG" data-content="Arrival: Departure: "></div>
-					<div id="line5" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Hong Kong - Shanghai" data-content="Max speed: 600 km/h"></div>
+					<div id="city5">Hong Kong</div>
+					<div id="line5" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Hong Kong - Shanghai" data-content="Max speed: 600 km/h; Length: 490km"></div>
 					<div id="Shanghai" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SHANGHAI" data-content="Arrival: Departure: "></div>
-					<div id="line6" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Shanghai - Beijing" data-content="Max speed: 600 km/h"></div>
+					<div id="city6">Shanghai</div>
+					<div id="line6" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Shanghai - Beijing" data-content="Max speed: 600 km/h; Length: 1200km"></div>
 					<div id="Beijing1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="BEIJING" data-content="Arrival: Departure: "></div>
-					<div id="line7" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Seoul" data-content="Max speed: 600 km/h"></div>
+					<div id="city7">Beijing</div>
+					<div id="line7" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Seoul" data-content="Max speed: 600 km/h; Length: 1100km"></div>
 					<div id="Seoul1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SEOUL" data-content="Arrival: Departure: "></div>
-					<div id="line8" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Seoul - Tokyo" data-content="Max speed: 600 km/h"></div>
+					<div id="city8">Seoul</div>
+					<div id="line8" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Seoul - Tokyo" data-content="Max speed: 600 km/h; Length: 1100km"></div>
 		    		<div id="Tokyo" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="TOKYO" data-content="Arrival: Departure: "></div>
-		    		<div id="line9" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Tokyo - Seoul" data-content="Max speed: 600 km/h"></div>
+		    		<div id="city9">Tokyo</div>
+		    		<div id="line9" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Tokyo - Seoul" data-content="Max speed: 600 km/h; Length: 1100km"></div>
 		    		<div id="Seoul2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SEOUL" data-content="Arrival: Departure: "></div>
-		    		<div id="line10" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Seoul - Beijing" data-content="Max speed: 600 km/h"></div>
+		    		<div id="city10">Seoul</div>
+		    		<div id="line10" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Seoul - Beijing" data-content="Max speed: 600 km/h; Length: 1100km"></div>
 		    		<div id="Beijing2" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="BEIJING" data-content="Arrival: Departure: "></div>
-		    		<div id="line11" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Bering Strait Bridge" data-content="Max speed: 2000 km/h"></div>
-					<div id="line12" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge" data-content="Max speed: 1000 km/h"></div>
-					<div id="line13" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge - Montreal" data-content="Max speed: 2000 km/h"></div>
-					<div id="Montreal" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="MONTREAL" data-content="Arrival: Departure: "></div>		
-					<div id="line14" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Montreal - New York" data-content="Max speed: 600 km/h"></div>
+		    		<div id="city11">Beijing</div>
+		    		<div id="line11" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Bering Strait Bridge" data-content="Max speed: 2000 km/h; Length: 6200km"></div>
+					<div id="line12" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge" data-content="Max speed: 1000 km/h; Length: 150km"></div>
+					<div id="bridge">Bering Strait Bridge</div>
+					<div id="line13" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge - Montreal" data-content="Max speed: 2000 km/h; Length: 7000km"></div>
+					<div id="Montreal" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="MONTREAL" data-content="Arrival: Departure: "></div>
+					<div id="city12">Montreal</div>		
+					<div id="line14" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Montreal - New York" data-content="Max speed: 600 km/h; Length: 430km"></div>
 					<div id="NewYork" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="NEW YORK" data-content="Arrival: Departure: "></div>
-					<div id="line15" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="New York - Washington" data-content="Max speed: 600 km/h"></div>
+					<div id="city13">New York</div>
+					<div id="line15" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="New York - Washington" data-content="Max speed: 600 km/h; Length: 370km"></div>
 					<div id="Washington" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="WASHINGTON" data-content="Arrival: Departure: "></div>
-					<div id="line16" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Washington - San Francisco" data-content="Max speed: 1000 km/h"></div>
+					<div id="city14">Washington</div>
+					<div id="line16" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Washington - San Francisco" data-content="Max speed: 1000 km/h; Length: 4300km"></div>
 					<div id="SanFrancisco" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="SAN FRANCISCO" data-content="Arrival: Departure: "></div>
-					<div id="line17" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="San Francisco - Los Angeles" data-content="Max speed: 600 km/h"></div>
+					<div id="city15">San Francisco</div>
+					<div id="line17" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="San Francisco - Los Angeles" data-content="Max speed: 600 km/h; Length: 510km"></div>
 					<div id="LosAngeles" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="LOS ANGELES" data-content="Arrival: Departure: "></div>
-					<div id="line18" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Los Angeles - Rio De Janeiro" data-content="Max speed: 2000 km/h"></div>
+					<div id="city16">Los Angeles</div>
+					<div id="line18" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Los Angeles - Rio De Janeiro" data-content="Max speed: 2000 km/h; Length: 8900km"></div>
 					<div id="RioDeJaneiro" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="RIO DE JANEIRO" data-content="Arrival: Departure: "></div>
+					<div id="city17">Rio de Janeiro</div>
 				</div>
 			</div>
 

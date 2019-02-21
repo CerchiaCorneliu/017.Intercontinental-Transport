@@ -211,11 +211,20 @@
 	    		</script>
 
 	    		<div id="cities" style="display: none">
-	    			<div id="Tokyo" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="TOKYO" data-content="Arrival: Departure: "></div>
+	    			<div id="Tokyo" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="TOKYO" data-content="Arrival: Departure:"></div>
 	    			<script>
-	    				$(document).ready(function () {
-						  	$('[data-toggle="popover"]').popover()
-						  	$('.popover-dismiss').popover({trigger: 'focus'})
+	    				/* $(document).ready(function(){
+							$('[data-toggle="popover"]').popover();
+							$('.popover-dismiss').popover({trigger: 'focus'});
+						}) */
+						$(document).ready(function(){
+							var timer;
+							$('[data-toggle="popover"]').popover({trigger: "manual", animation: false}).on("mouseenter", function(){$(this).popover("show");}).on("mouseleave", function(){
+								var self = $(this);
+								timer = setTimeout(function(){
+									self.popover("hide");
+								});
+							});
 						})
 	    			</script>
 
@@ -267,7 +276,7 @@
 				</div>
 
 				<div id="lines" style="display: none">
-					<canvas id="line1" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge" data-content="Max speed: 1000 km/h">
+					<canvas id="line1" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge" data-content="Max speed: 1000 km/h; Length: 150km">
 					</canvas>
 					<script>
 						var canvas1 = document.getElementById("line1");	
@@ -282,7 +291,7 @@
 						ctx1.closePath();
 					</script> 
 
-					<canvas id="line2" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge - Montreal" data-content="Max speed: 2000 km/h">
+					<canvas id="line2" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge - Montreal" data-content="Max speed: 2000 km/h; Length: 7000km">
 					</canvas>
 					<script>
 						var canvas2 = document.getElementById("line2");	
@@ -297,7 +306,7 @@
 						ctx2.closePath();
 					</script>
 
-					<canvas id="line3" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Montreal - New York" data-content="Max speed: 600 km/h">
+					<canvas id="line3" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Montreal - New York" data-content="Max speed: 600 km/h; Length: 430km">
 					</canvas>
 					<script>
 						var canvas3 = document.getElementById("line3");	
@@ -312,7 +321,8 @@
 						ctx3.closePath();
 					</script>
 
-					<canvas id="line4" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="New York - Washington" data-content="Max speed: 600 km/h">
+					<canvas id="line4" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="New York - Washington" data-content="Max speed: 600 km/h;
+					Length: 370km">
 					</canvas>
 					<script>
 						var canvas4 = document.getElementById("line4");	
@@ -327,7 +337,7 @@
 						ctx4.closePath();
 					</script>
 
-					<canvas id="line5" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Washington - San Francisco" data-content="Max speed: 1000 km/h">
+					<canvas id="line5" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Washington - San Francisco" data-content="Max speed: 1000 km/h; Length: 4300km">
 					</canvas>
 					<script>
 						var canvas5 = document.getElementById("line5");	
@@ -343,7 +353,7 @@
 					</script>
 
 					<canvas id="line6" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="San
-					Francisco - Los Angeles" data-content="Max speed: 600 km/h">
+					Francisco - Los Angeles" data-content="Max speed: 600 km/h; Length: 510km">
 					</canvas>
 					<script>
 						var canvas6 = document.getElementById("line6");	
@@ -358,7 +368,7 @@
 						ctx6.closePath();
 					</script>
 
-					<canvas id="line7" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Los Angeles - Rio De Janeiro" data-content="Max speed: 1000 km/h">
+					<canvas id="line7" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Los Angeles - Rio De Janeiro" data-content="Max speed: 1000 km/h; Length: 8900km">
 					</canvas>
 					<script>
 						var canvas7 = document.getElementById("line7");	
@@ -373,7 +383,8 @@
 						ctx7.closePath();
 					</script>
 
-					<canvas id="line8" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge" data-content="Max speed: 1000 km/h">
+					<canvas id="line8" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge" data-content="Max speed: 1000 km/h;
+					Length: 150km">
 					</canvas>
 					<script>
 						var canvas8 = document.getElementById("line8");	
@@ -388,7 +399,7 @@
 						ctx8.closePath();
 					</script> 
 
-					<canvas id="line9" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge - Moskow" data-content="Max speed: 2000 km/h">
+					<canvas id="line9" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Bering Strait Bridge - Moskow" data-content="Max speed: 2000 km/h; Length: 10500km">
 					</canvas>
 					<script>
 						var canvas9 = document.getElementById("line9");	
@@ -403,7 +414,7 @@
 						ctx9.closePath();
 					</script> 
 
-					<canvas id="line10" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Moskow - Berlin" data-content="Max speed: 600 km/h">
+					<canvas id="line10" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Moskow - Berlin" data-content="Max speed: 1000 km/h; Length: 3000km">
 					</canvas>
 					<script>
 						var canvas10 = document.getElementById("line10");	
@@ -418,7 +429,7 @@
 						ctx10.closePath();
 					</script> 
 
-					<canvas id="line11" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Berlin - Paris" data-content="Max speed: 600 km/h">
+					<canvas id="line11" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Berlin - Paris" data-content="Max speed: 600 km/h; Length: 1000km">
 					</canvas>
 					<script>
 						var canvas11 = document.getElementById("line11");	
@@ -433,7 +444,7 @@
 						ctx11.closePath();
 					</script> 
 
-					<canvas id="line12" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Paris - London" data-content="Max speed: 600 km/h">
+					<canvas id="line12" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Paris - London" data-content="Max speed: 600 km/h; Length: 600km">
 					</canvas>
 					<script>
 						var canvas12 = document.getElementById("line12");	
@@ -448,7 +459,7 @@
 						ctx12.closePath();
 					</script>
 
-					<canvas id="line13" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Paris - Madrid" data-content="Max speed: 600 km/h">
+					<canvas id="line13" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Paris - Madrid" data-content="Max speed: 600 km/h; Length: 1300km">
 					</canvas>
 					<script>
 						var canvas13 = document.getElementById("line13");	
@@ -463,7 +474,7 @@
 						ctx13.closePath();
 					</script>
 
-					<canvas id="line14" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Madrid - Johannesburg" data-content="Max speed: 2000 km/h">
+					<canvas id="line14" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Madrid - Johannesburg" data-content="Max speed: 2000 km/h; Length: 8300km">
 					</canvas>
 					<script>
 						var canvas14 = document.getElementById("line14");	
@@ -478,7 +489,7 @@
 						ctx14.closePath();
 					</script>
 
-					<canvas id="line15" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Johannesburg - Cairo" data-content="Max speed: 2000 km/h">
+					<canvas id="line15" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Johannesburg - Cairo" data-content="Max speed: 2000 km/h; Length: 5800km">
 					</canvas>
 					<script>
 						var canvas15 = document.getElementById("line15");	
@@ -493,7 +504,7 @@
 						ctx15.closePath();
 					</script>
 
-					<canvas id="line16" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Cairo - Jerusalem" data-content="Max speed: 600 km/h">
+					<canvas id="line16" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Cairo - Jerusalem" data-content="Max speed: 600 km/h; Length: 350km">
 					</canvas>
 					<script>
 						var canvas16 = document.getElementById("line16");	
@@ -508,7 +519,7 @@
 						ctx16.closePath();
 					</script>
 
-					<canvas id="line17" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jerusalem - Moskow" data-content="Max speed: 1000 km/h">
+					<canvas id="line17" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jerusalem - Moskow" data-content="Max speed: 1000 km/h; Length: 3600km">
 					</canvas>
 					<script>
 						var canvas17 = document.getElementById("line17");	
@@ -523,7 +534,7 @@
 						ctx17.closePath();
 					</script>
 
-					<canvas id="line18" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jerusalem - New Delhi" data-content="Max speed: 1000 km/h">
+					<canvas id="line18" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jerusalem - New Delhi" data-content="Max speed: 1000 km/h; Length: 4200km">
 					</canvas>
 					<script>
 						var canvas18 = document.getElementById("line18");	
@@ -538,7 +549,7 @@
 						ctx18.closePath();
 					</script>
 
-					<canvas id="line19" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="New Delhi - Kuala Lumpur" data-content="Max speed: 600 km/h">
+					<canvas id="line19" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="New Delhi - Kuala Lumpur" data-content="Max speed: 600 km/h; Length: 3800km">
 					</canvas>
 					<script>
 						var canvas19 = document.getElementById("line19");	
@@ -553,7 +564,7 @@
 						ctx19.closePath();
 					</script>
 
-					<canvas id="line20" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Kuala Lumpur - Singapore" data-content="Max speed: 600 km/h">
+					<canvas id="line20" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Kuala Lumpur - Singapore" data-content="Max speed: 600 km/h; Length: 450km">
 					</canvas>
 					<script>
 						var canvas20 = document.getElementById("line20");	
@@ -568,7 +579,7 @@
 						ctx20.closePath();
 					</script>
 
-					<canvas id="line21" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Singapore - Jakarta" data-content="Max speed: 600 km/h">
+					<canvas id="line21" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Singapore - Jakarta" data-content="Max speed: 600 km/h; Length: 1300km">
 					</canvas>
 					<script>
 						var canvas21 = document.getElementById("line21");	
@@ -583,7 +594,7 @@
 						ctx21.closePath();
 					</script>
 
-					<canvas id="line22" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jakarta - Sydney" data-content="Max speed: 1000 km/h">
+					<canvas id="line22" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Jakarta - Sydney" data-content="Max speed: 1000 km/h; Length: 4500km">
 					</canvas>
 					<script>
 						var canvas22 = document.getElementById("line22");	
@@ -599,7 +610,7 @@
 					</script>
 
 					<canvas id="line23" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Kuala Lumpur - Hong
-					Kong" data-content="Max speed: 600 km/h">
+					Kong" data-content="Max speed: 600 km/h; Length: 2600km">
 					</canvas>
 					<script>
 						var canvas23 = document.getElementById("line23");	
@@ -615,7 +626,7 @@
 					</script>
 
 					<canvas id="line24" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Hong
-					Kong - New Delhi" data-content="Max speed: 600 km/h">
+					Kong - New Delhi" data-content="Max speed: 600 km/h; Length: 4800km">
 					</canvas>
 					<script>
 						var canvas24 = document.getElementById("line24");	
@@ -631,7 +642,7 @@
 					</script>
 
 					<canvas id="line25" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Hong
-					Kong - Shanghai" data-content="Max speed: 600 km/h">
+					Kong - Shanghai" data-content="Max speed: 600 km/h; Length: 490km">
 					</canvas>
 					<script>
 						var canvas25 = document.getElementById("line25");	
@@ -646,7 +657,7 @@
 						ctx25.closePath();
 					</script>
 
-					<canvas id="line26" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Shanghai - Beijing" data-content="Max speed: 600 km/h">
+					<canvas id="line26" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Shanghai - Beijing" data-content="Max speed: 600 km/h; Length: 1200km">
 					</canvas>
 					<script>
 						var canvas26 = document.getElementById("line26");	
@@ -661,7 +672,7 @@
 						ctx26.closePath();
 					</script>
 
-					<canvas id="line27" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Seoul" data-content="Max speed: 600 km/h">
+					<canvas id="line27" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Seoul" data-content="Max speed: 600 km/h; Length: 1100km">
 					</canvas>
 					<script>
 						var canvas27 = document.getElementById("line27");	
@@ -676,7 +687,7 @@
 						ctx27.closePath();
 					</script>
 
-					<canvas id="line28" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Seoul - Tokyo" data-content="Max speed: 600 km/h">
+					<canvas id="line28" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Seoul - Tokyo" data-content="Max speed: 600 km/h; Length: 1100km">
 					</canvas>
 					<script>
 						var canvas28 = document.getElementById("line28");	
@@ -691,7 +702,7 @@
 						ctx28.closePath();
 					</script>
 
-					<canvas id="line29" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Moskow" data-content="Max speed: 2000 km/h">
+					<canvas id="line29" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Moskow" data-content="Max speed: 2000 km/h; Length: 7500km">
 					</canvas>
 					<script>
 						var canvas29 = document.getElementById("line29");	
@@ -706,7 +717,7 @@
 						ctx29.closePath();
 					</script>
 
-					<canvas id="line30" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Bering Strait Bridge" data-content="Max speed: 2000 km/h">
+					<canvas id="line30" tabindex="-1" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Beijing - Bering Strait Bridge" data-content="Max speed: 2000 km/h; Length: 6200km">
 					</canvas>
 					<script>
 						var canvas30 = document.getElementById("line30");	
