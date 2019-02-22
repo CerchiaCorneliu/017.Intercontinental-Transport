@@ -34,8 +34,23 @@ body {
 	position: relative;
 }
 
+.popover-header {
+	font-family: 'Play', sans-serif;
+	background-color: #001538;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.popover-body {
+	font-family: 'Play', sans-serif;
+    color: #001538;
+    font-size: 13px;
+    text-align: center; 
+}
+
 #Tokyo {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -52,7 +67,7 @@ body {
 }
 
 #Seoul {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -69,7 +84,7 @@ body {
 }
 
 #Beijing {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -86,7 +101,7 @@ body {
 }
 
 #Shanghai {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -103,7 +118,7 @@ body {
 }
 
 #HongKong {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -120,7 +135,7 @@ body {
 }
 
 #NewDelhi {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -137,7 +152,7 @@ body {
 }
 
 #KualaLumpur {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -154,7 +169,7 @@ body {
 }
 
 #Singapore {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -171,7 +186,7 @@ body {
 }
 
 #Jakarta {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -189,7 +204,7 @@ body {
 
 
 #Sydney {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -206,7 +221,7 @@ body {
 }
 
 #Jerusalem {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -223,7 +238,7 @@ body {
 }
 
 #Moskow {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -240,7 +255,7 @@ body {
 }
 
 #Berlin {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -257,7 +272,7 @@ body {
 }
 
 #Paris {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -274,7 +289,7 @@ body {
 }
 
 #London {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -291,7 +306,7 @@ body {
 }
 
 #Madrid {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -308,7 +323,7 @@ body {
 }
 
 #Cairo {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -325,7 +340,7 @@ body {
 }
 
 #Johannesburg {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -342,7 +357,7 @@ body {
 }
 
 #Montreal {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -359,7 +374,7 @@ body {
 }
 
 #NewYork {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -376,7 +391,7 @@ body {
 }
 
 #Washington {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -393,7 +408,7 @@ body {
 }
 
 #SanFrancisco {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -410,7 +425,7 @@ body {
 }
 
 #LosAngeles {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -427,7 +442,7 @@ body {
 }
 
 #RioDeJaneiro {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -441,6 +456,15 @@ body {
 }
 #RioDeJaneiro:hover {
 	transform: scale(2);
+}
+
+.line {
+	color: #68a2ff;
+	transition: .5s ease;
+}
+
+.line:hover {
+	color: #001538;
 }
 
 #line1 {
@@ -744,11 +768,22 @@ body {
 }
 
 
+
+
+
 /* LINES & FEES */
+
+#routes {
+	height: 1220px;
+	display: block;
+	overflow: auto;
+	color: #001538;
+	margin-bottom: 20px;
+}
 
 .conduct-line {
 	position: relative;
-	max-width: 800px; 
+	width: 800px; 
 	margin: 0px auto;
 	height: 200px;
 }
@@ -762,7 +797,7 @@ body {
 }
 
 #conduct-line1 #Johannesburg {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -797,7 +832,7 @@ body {
 }
 
 #conduct-line1 #Madrid {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -832,7 +867,7 @@ body {
 }
 
 #conduct-line1 #Paris1 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -867,7 +902,7 @@ body {
 }
 
 #conduct-line1 #London {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -902,7 +937,7 @@ body {
 }
 
 #conduct-line1 #Paris2 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -937,7 +972,7 @@ body {
 }
 
 #conduct-line1 #Berlin {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -972,7 +1007,7 @@ body {
 }
 
 #conduct-line1 #Moskow {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1007,7 +1042,7 @@ body {
 }
 
 #conduct-line1 #line8 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 1%; 
 	height: 2%;
 	position: absolute;
@@ -1037,7 +1072,7 @@ body {
 }
 
 #conduct-line1 #Montreal {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1072,7 +1107,7 @@ body {
 }
 
 #conduct-line1 #NewYork {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1107,7 +1142,7 @@ body {
 }
 
 #conduct-line1 #Washington {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1142,7 +1177,7 @@ body {
 }
 
 #conduct-line1 #SanFrancisco {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1177,7 +1212,7 @@ body {
 }
 
 #conduct-line1 #LosAngeles {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1212,7 +1247,7 @@ body {
 }
 
 #conduct-line1 #RioDeJaneiro {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1238,7 +1273,7 @@ body {
 /*----------------*/
 
 #conduct-line2 #Johannesburg {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1273,7 +1308,7 @@ body {
 }
 
 #conduct-line2 #Cairo {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1308,7 +1343,7 @@ body {
 }
 
 #conduct-line2 #Jerusalem {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1343,7 +1378,7 @@ body {
 }
 
 #conduct-line2 #Moskow {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1378,7 +1413,7 @@ body {
 }
 
 #conduct-line2 #line8 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 1%; 
 	height: 2%;
 	position: absolute;
@@ -1408,7 +1443,7 @@ body {
 }
 
 #conduct-line2 #Montreal {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1443,7 +1478,7 @@ body {
 }
 
 #conduct-line2 #NewYork {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1478,7 +1513,7 @@ body {
 }
 
 #conduct-line2 #Washington {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1513,7 +1548,7 @@ body {
 }
 
 #conduct-line2 #SanFrancisco {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1548,7 +1583,7 @@ body {
 }
 
 #conduct-line2 #LosAngeles {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1583,7 +1618,7 @@ body {
 }
 
 #conduct-line2 #RioDeJaneiro {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1609,7 +1644,7 @@ body {
 /*----------------*/
 
 #conduct-line3 #Johannesburg {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1644,7 +1679,7 @@ body {
 }
 
 #conduct-line3 #Cairo {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1679,7 +1714,7 @@ body {
 }
 
 #conduct-line3 #Jerusalem {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1714,7 +1749,7 @@ body {
 }
 
 #conduct-line3 #NewDelhi {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1749,7 +1784,7 @@ body {
 }
 
 #conduct-line3 #HongKong {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1784,7 +1819,7 @@ body {
 }
 
 #conduct-line3 #Shanghai {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1819,7 +1854,7 @@ body {
 }
 
 #conduct-line3 #Beijing1 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1854,7 +1889,7 @@ body {
 }
 
 #conduct-line3 #Seoul1 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1889,7 +1924,7 @@ body {
 }
 
 #conduct-line3 #Tokyo {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1924,7 +1959,7 @@ body {
 }
 
 #conduct-line3 #Seoul2 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1959,7 +1994,7 @@ body {
 }
 
 #conduct-line3 #Beijing2 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -1994,7 +2029,7 @@ body {
 }
 
 #conduct-line3 #line12 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 1%; 
 	height: 2%;
 	position: absolute;
@@ -2024,7 +2059,7 @@ body {
 }
 
 #conduct-line3 #Montreal {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2059,7 +2094,7 @@ body {
 }
 
 #conduct-line3 #NewYork {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2094,7 +2129,7 @@ body {
 }
 
 #conduct-line3 #Washington {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2129,7 +2164,7 @@ body {
 }
 
 #conduct-line3 #SanFrancisco {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2164,7 +2199,7 @@ body {
 }
 
 #conduct-line3 #LosAngeles {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2199,7 +2234,7 @@ body {
 }
 
 #conduct-line3 #RioDeJaneiro {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2225,7 +2260,7 @@ body {
 /*----------------*/
 
 #conduct-line4 #Johannesburg {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2260,7 +2295,7 @@ body {
 }
 
 #conduct-line4 #Cairo {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2295,7 +2330,7 @@ body {
 }
 
 #conduct-line4 #Jerusalem {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2330,7 +2365,7 @@ body {
 }
 
 #conduct-line4 #NewDelhi {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2365,7 +2400,7 @@ body {
 }
 
 #conduct-line4 #KualaLumpur {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2400,7 +2435,7 @@ body {
 }
 
 #conduct-line4 #Singapore {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2435,7 +2470,7 @@ body {
 }
 
 #conduct-line4 #Jakarta {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2470,7 +2505,7 @@ body {
 }
 
 #conduct-line4 #Sydney {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2496,7 +2531,7 @@ body {
 /*----------------*/
 
 #conduct-line5 #Sydney {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2531,7 +2566,7 @@ body {
 }
 
 #conduct-line5 #Jakarta {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2566,7 +2601,7 @@ body {
 }
 
 #conduct-line5 #Singapore {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2601,7 +2636,7 @@ body {
 }
 
 #conduct-line5 #KualaLumpur {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2636,7 +2671,7 @@ body {
 }
 
 #conduct-line5 #HongKong {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2671,7 +2706,7 @@ body {
 }
 
 #conduct-line5 #Shanghai {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2706,7 +2741,7 @@ body {
 }
 
 #conduct-line5 #Beijing1 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2741,7 +2776,7 @@ body {
 }
 
 #conduct-line5 #Seoul1 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2776,7 +2811,7 @@ body {
 }
 
 #conduct-line5 #Tokyo {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2811,7 +2846,7 @@ body {
 }
 
 #conduct-line5 #Seoul2 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2846,7 +2881,7 @@ body {
 }
 
 #conduct-line5 #Beijing2 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2881,7 +2916,7 @@ body {
 }
 
 #conduct-line5 #Moskow {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2916,7 +2951,7 @@ body {
 }
 
 #conduct-line5 #Berlin {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2951,7 +2986,7 @@ body {
 }
 
 #conduct-line5 #Paris1 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -2986,7 +3021,7 @@ body {
 }
 
 #conduct-line5 #London {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3021,7 +3056,7 @@ body {
 }
 
 #conduct-line5 #Paris2 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3056,7 +3091,7 @@ body {
 }
 
 #conduct-line5 #Madrid {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3082,7 +3117,7 @@ body {
 /*----------------*/
 
 #conduct-line6 #Sydney {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3117,7 +3152,7 @@ body {
 }
 
 #conduct-line6 #Jakarta {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3152,7 +3187,7 @@ body {
 }
 
 #conduct-line6 #Singapore {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3187,7 +3222,7 @@ body {
 }
 
 #conduct-line6 #KualaLumpur {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3222,7 +3257,7 @@ body {
 }
 
 #conduct-line6 #HongKong {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3257,7 +3292,7 @@ body {
 }
 
 #conduct-line6 #Shanghai {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3292,7 +3327,7 @@ body {
 }
 
 #conduct-line6 #Beijing1 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3327,7 +3362,7 @@ body {
 }
 
 #conduct-line6 #Seoul1 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3362,7 +3397,7 @@ body {
 }
 
 #conduct-line6 #Tokyo {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3397,7 +3432,7 @@ body {
 }
 
 #conduct-line6 #Seoul2 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3432,7 +3467,7 @@ body {
 }
 
 #conduct-line6 #Beijing2 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3467,7 +3502,7 @@ body {
 }
 
 #conduct-line6 #line12 {
-	background-color: #002666;
+	background-color: #001538;
 	width: 1%; 
 	height: 2%;
 	position: absolute;
@@ -3496,7 +3531,7 @@ body {
 }
 
 #conduct-line6 #Montreal {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3531,7 +3566,7 @@ body {
 }
 
 #conduct-line6 #NewYork {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3566,7 +3601,7 @@ body {
 }
 
 #conduct-line6 #Washington {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3601,7 +3636,7 @@ body {
 }
 
 #conduct-line6 #SanFrancisco {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3636,7 +3671,7 @@ body {
 }
 
 #conduct-line6 #LosAngeles {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3671,7 +3706,7 @@ body {
 }
 
 #conduct-line6 #RioDeJaneiro {
-	background-color: #002666;
+	background-color: #001538;
 	width: 6px;
 	height: 6px;
 	border-radius: 5px;
@@ -3714,14 +3749,14 @@ caption {
 .table-height {
 	height: 500px;
 	display: block;
-	overflow: scroll;
+	overflow: auto;
 }
 
 #fees1 table td {
 	font-size: 10px;
 	vertical-align: middle;
 	cursor: pointer;
-	color: black;
+	color: #001538;
 }
 
 #fees1 table th {
@@ -3743,7 +3778,7 @@ caption {
 	font-size: 10px;
 	vertical-align: middle;
 	cursor: pointer;
-	color: black;
+	color: #001538;
 }
 
 #fees2 table th {
@@ -3786,7 +3821,6 @@ caption {
     padding-top: 1px;
     border: 1px solid white;
     border-radius: 2px;
-
     font-weight: bold;
     transition: .5 ease;
 }

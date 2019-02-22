@@ -35,7 +35,7 @@
 	</nav>
 
 	<div class="container-fluid" style="width: 85%">
-		<div class="jumbotron text-center" style="margin: 40px 0px 40px">
+		<div class="jumbotron text-center" style="margin: 40px 0px 40px; background-color: white">
 			<div id="routes">
 				<div class="conduct-line" id="conduct-line1">
 					<h1>Conduct line <span>Joh-A</span> (round-trip line)</h1>
@@ -312,14 +312,9 @@
 					<div id="city1">Sydney</div>
 					<script>
 		    			$(document).ready(function(){
-							var timer;
-							$('[data-toggle="popover"]').popover({trigger: "manual", animation: false}).on("mouseenter", function(){$(this).popover("show");}).on("mouseleave", function(){
-								var self = $(this);
-								timer = setTimeout(function(){
-									self.popover("hide");
+							$('[data-toggle="popover"]').popover({trigger: "manual", animation: false}).on("mouseenter", function(){$(this).popover("show");}).on("mouseleave", function(){$(this).popover("hide");
 								});
-							});
-						})
+						});
 		    		</script>
 					<div id="line1" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="Sydney - Jakarta" data-content="Max speed: 1000 km/h; Length: 4500km"></div>
 					<div id="Jakarta" tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" title="JAKARTA" data-content="Arrival: Departure: "></div>
@@ -377,7 +372,7 @@
 
 			<div id="fees1" class="table-responsive table-height">
 			    <table class="table table-hover table-bordered table-sticky table-sm">
-				  <caption>*High Class, **Standard Class, ***Cargo Shipping Fee</caption>
+				  <caption>*High Class Ticket, **Standard Class Ticket, ***Cargo Shipping Fee</caption>
 				  <thead class="thead-dark">
 				    <tr>
 				      <th scope="col">LIST #1</th>
@@ -787,7 +782,7 @@
 			<br>
 			<div id="fees2" class="table-responsive table-height">
 			    <table class="table table-hover table-bordered table-sticky table-sm">
-				  <caption>*High Class, **Standard Class, ***Cargo Shipping Fee</caption>
+				  <caption>*High Class Ticket, **Standard Class Ticket, ***Cargo Shipping Fee</caption>
 				  <thead class="thead-dark">
 				    <tr>
 				      <th scope="col">LIST #2</th>
